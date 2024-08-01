@@ -1,0 +1,307 @@
+[07-30 11:03:28] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:03:28] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:03:28] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:03:28] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:03:29] [INFO] 连接成功，机器人开始运行
+[07-30 11:03:30] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:04:10] [DEBUG] 心跳发送成功
+[07-30 11:04:45] [ERROR] NotFoundError('Error code: 404')
+[07-30 11:04:45] [ERROR] [error:NotFoundError('Error code: 404')] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\openai\_base_client.py", line 1020, in _request
+[07-30 11:04:52] [DEBUG] 心跳发送成功
+[07-30 11:05:33] [DEBUG] 心跳发送成功
+[07-30 11:05:58] [ERROR] NotFoundError('Error code: 404')
+[07-30 11:05:58] [ERROR] [error:NotFoundError('Error code: 404')] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\openai\_base_client.py", line 1020, in _request
+[07-30 11:06:05] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:06:05] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:06:05] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:06:06] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:06:07] [INFO] 连接成功，机器人开始运行
+[07-30 11:06:07] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:06:10] [ERROR] NotFoundError('Error code: 404')
+[07-30 11:06:10] [ERROR] [error:NotFoundError('Error code: 404')] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\openai\_base_client.py", line 1020, in _request
+[07-30 11:06:48] [DEBUG] 心跳发送成功
+[07-30 11:07:03] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:07:03] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:07:03] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:07:04] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:07:05] [INFO] 连接成功，机器人开始运行
+[07-30 11:07:05] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:07:09] [ERROR] BadRequestError('Error code: 400 - {\'error\': {\'message\': "Prompt must contain the word \'json\' in some form to use \'response_format\' of type \'json_object\'.", \'type\': \'invalid_request_error\', \'param\': None, \'code\': \'invalid_request_error\'}}')
+[07-30 11:07:09] [ERROR] [error:BadRequestError('Error code: 400 - {\'error\': {\'message\': "Prompt must contain the word \'json\' in some form to use \'response_format\' of type \'json_object\'.", \'type\': \'invalid_request_error\', \'param\': None, \'code\': \'invalid_request_error\'}}')] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\openai\_base_client.py", line 1020, in _request
+[07-30 11:07:46] [DEBUG] 心跳发送成功
+[07-30 11:08:27] [DEBUG] 心跳发送成功
+[07-30 11:10:04] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:10:04] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:10:04] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:10:04] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:10:05] [INFO] 连接成功，机器人开始运行
+[07-30 11:10:05] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:10:46] [DEBUG] 心跳发送成功
+[07-30 11:11:27] [DEBUG] 心跳发送成功
+[07-30 11:12:09] [DEBUG] 心跳发送成功
+[07-30 11:12:21] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:12:21] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:12:21] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:12:22] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:12:22] [INFO] 连接成功，机器人开始运行
+[07-30 11:12:23] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:13:04] [DEBUG] 心跳发送成功
+[07-30 11:13:38] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:13:38] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:13:38] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:13:39] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:13:39] [INFO] 连接成功，机器人开始运行
+[07-30 11:13:40] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:14:16] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:14:16] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:14:16] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:14:17] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:14:18] [INFO] 连接成功，机器人开始运行
+[07-30 11:14:18] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:14:21] [DEBUG] 心跳发送成功
+[07-30 11:14:21] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:14:21] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:14:21] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:14:22] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:14:22] [INFO] 连接成功，机器人开始运行
+[07-30 11:14:23] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:14:59] [DEBUG] 心跳发送成功
+[07-30 11:15:02] [DEBUG] 心跳发送成功
+[07-30 11:15:03] [DEBUG] 心跳发送成功
+[07-30 11:15:36] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:15:36] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:15:36] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:15:37] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:15:38] [INFO] 连接成功，机器人开始运行
+[07-30 11:15:38] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:15:43] [DEBUG] 心跳发送成功
+[07-30 11:15:45] [DEBUG] 心跳发送成功
+[07-30 11:16:19] [DEBUG] 心跳发送成功
+[07-30 11:16:24] [DEBUG] 心跳发送成功
+[07-30 11:16:26] [DEBUG] 心跳发送成功
+[07-30 11:17:00] [DEBUG] 心跳发送成功
+[07-30 11:17:06] [DEBUG] 心跳发送成功
+[07-30 11:17:07] [DEBUG] 心跳发送成功
+[07-30 11:17:20] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:17:20] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:17:20] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:17:20] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:17:21] [INFO] 连接成功，机器人开始运行
+[07-30 11:17:21] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:17:47] [DEBUG] 心跳发送成功
+[07-30 11:17:48] [DEBUG] 心跳发送成功
+[07-30 11:18:02] [DEBUG] 心跳发送成功
+[07-30 11:18:28] [DEBUG] 心跳发送成功
+[07-30 11:18:30] [DEBUG] 心跳发送成功
+[07-30 11:18:43] [DEBUG] 心跳发送成功
+[07-30 11:19:09] [DEBUG] 心跳发送成功
+[07-30 11:19:11] [DEBUG] 心跳发送成功
+[07-30 11:19:32] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 11:19:32] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 11:19:32] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 11:19:33] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 11:19:33] [INFO] 连接成功，机器人开始运行
+[07-30 11:19:34] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 11:20:15] [DEBUG] 心跳发送成功
+[07-30 11:20:56] [DEBUG] 心跳发送成功
+[07-30 11:21:11] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[07-30 11:21:11] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[07-30 11:21:11] [ERROR] ClientConnectorError(ConnectionKey(host='sandbox.api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x000001E4F27D6F40>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[07-30 11:21:11] [ERROR] [error:ClientConnectorError(ConnectionKey(host='sandbox.api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x000001E4F27D6F40>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "c:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[07-30 11:21:15] [INFO] 重连成功，机器人继续运行
+[07-30 11:21:56] [DEBUG] 心跳发送成功
+[07-30 11:22:37] [DEBUG] 心跳发送成功
+[07-30 11:23:19] [DEBUG] 心跳发送成功
+[07-30 11:24:00] [DEBUG] 心跳发送成功
+[07-30 11:24:41] [DEBUG] 心跳发送成功
+[07-30 11:25:22] [DEBUG] 心跳发送成功
+[07-30 11:26:04] [DEBUG] 心跳发送成功
+[07-30 11:26:45] [DEBUG] 心跳发送成功
+[07-30 11:27:26] [DEBUG] 心跳发送成功
+[07-30 11:28:07] [DEBUG] 心跳发送成功
+[07-30 11:28:49] [DEBUG] 心跳发送成功
+[07-30 11:29:30] [DEBUG] 心跳发送成功
+[07-30 11:30:11] [DEBUG] 心跳发送成功
+[07-30 11:30:52] [DEBUG] 心跳发送成功
+[07-30 11:31:34] [DEBUG] 心跳发送成功
+[07-30 11:32:15] [DEBUG] 心跳发送成功
+[07-30 11:32:56] [DEBUG] 心跳发送成功
+[07-30 11:33:37] [DEBUG] 心跳发送成功
+[07-30 11:34:19] [DEBUG] 心跳发送成功
+[07-30 11:35:00] [DEBUG] 心跳发送成功
+[07-30 11:35:41] [DEBUG] 心跳发送成功
+[07-30 11:36:22] [DEBUG] 心跳发送成功
+[07-30 11:37:04] [DEBUG] 心跳发送成功
+[07-30 11:37:45] [DEBUG] 心跳发送成功
+[07-30 11:38:26] [DEBUG] 心跳发送成功
+[07-30 11:39:07] [DEBUG] 心跳发送成功
+[07-30 11:39:49] [DEBUG] 心跳发送成功
+[07-30 11:40:30] [DEBUG] 心跳发送成功
+[07-30 11:41:11] [DEBUG] 心跳发送成功
+[07-30 11:41:52] [DEBUG] 心跳发送成功
+[07-30 11:42:34] [DEBUG] 心跳发送成功
+[07-30 11:43:15] [DEBUG] 心跳发送成功
+[07-30 11:43:56] [DEBUG] 心跳发送成功
+[07-30 11:44:37] [DEBUG] 心跳发送成功
+[07-30 11:45:19] [DEBUG] 心跳发送成功
+[07-30 11:46:00] [DEBUG] 心跳发送成功
+[07-30 11:46:41] [DEBUG] 心跳发送成功
+[07-30 11:47:23] [DEBUG] 心跳发送成功
+[07-30 11:48:04] [DEBUG] 心跳发送成功
+[07-30 11:48:45] [DEBUG] 心跳发送成功
+[07-30 11:49:26] [DEBUG] 心跳发送成功
+[07-30 11:50:08] [DEBUG] 心跳发送成功
+[07-30 11:50:49] [DEBUG] 心跳发送成功
+[07-30 11:51:15] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[07-30 11:51:18] [INFO] 重连成功，机器人继续运行
+[07-30 11:52:00] [DEBUG] 心跳发送成功
+[07-30 11:52:41] [DEBUG] 心跳发送成功
+[07-30 11:53:22] [DEBUG] 心跳发送成功
+[07-30 11:54:03] [DEBUG] 心跳发送成功
+[07-30 11:54:44] [DEBUG] 心跳发送成功
+[07-30 11:55:26] [DEBUG] 心跳发送成功
+[07-30 11:56:07] [DEBUG] 心跳发送成功
+[07-30 11:56:48] [DEBUG] 心跳发送成功
+[07-30 11:57:30] [DEBUG] 心跳发送成功
+[07-30 11:58:11] [DEBUG] 心跳发送成功
+[07-30 11:58:52] [DEBUG] 心跳发送成功
+[07-30 11:59:33] [DEBUG] 心跳发送成功
+[07-30 12:00:15] [DEBUG] 心跳发送成功
+[07-30 12:00:56] [DEBUG] 心跳发送成功
+[07-30 15:09:31] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:09:31] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:09:31] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:09:32] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:09:33] [INFO] 连接成功，机器人开始运行
+[07-30 15:09:33] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:10:14] [DEBUG] 心跳发送成功
+[07-30 15:10:21] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:10:21] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:10:21] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:10:22] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:10:23] [INFO] 连接成功，机器人开始运行
+[07-30 15:10:24] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:10:43] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:10:43] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:10:43] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:10:43] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:10:44] [INFO] 连接成功，机器人开始运行
+[07-30 15:10:44] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:11:25] [DEBUG] 心跳发送成功
+[07-30 15:11:32] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:11:32] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:11:32] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:11:32] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:11:33] [INFO] 连接成功，机器人开始运行
+[07-30 15:11:33] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:11:42] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:11:43] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:11:43] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:11:43] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:11:44] [INFO] 连接成功，机器人开始运行
+[07-30 15:11:46] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:12:25] [DEBUG] 心跳发送成功
+[07-30 15:13:07] [DEBUG] 心跳发送成功
+[07-30 15:13:24] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:13:24] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:13:24] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:13:26] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:13:27] [INFO] 连接成功，机器人开始运行
+[07-30 15:13:28] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:14:03] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:14:03] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:14:03] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:14:04] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:14:04] [INFO] 连接成功，机器人开始运行
+[07-30 15:14:05] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:14:45] [DEBUG] 心跳发送成功
+[07-30 15:15:22] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:15:22] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:15:22] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:15:29] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:15:33] [INFO] 连接成功，机器人开始运行
+[07-30 15:15:48] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:15:52] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:15:52] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:15:52] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:15:54] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:15:56] [INFO] 连接成功，机器人开始运行
+[07-30 15:15:56] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:16:37] [DEBUG] 心跳发送成功
+[07-30 15:17:04] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:17:04] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:17:04] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:17:05] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:17:05] [INFO] 连接成功，机器人开始运行
+[07-30 15:17:06] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:17:09] [ERROR] NameError("name 'Reply' is not defined")
+[07-30 15:17:09] [ERROR] [error:NameError("name 'Reply' is not defined")] File "d:\code\qqbot0729\robot.py", line 42, in deliver
+[07-30 15:17:48] [DEBUG] 心跳发送成功
+[07-30 15:18:28] [DEBUG] 心跳发送成功
+[07-30 15:18:53] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:18:54] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:18:54] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:18:54] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:18:54] [INFO] 连接成功，机器人开始运行
+[07-30 15:18:55] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:19:36] [DEBUG] 心跳发送成功
+[07-30 15:20:17] [DEBUG] 心跳发送成功
+[07-30 15:20:58] [DEBUG] 心跳发送成功
+[07-30 15:21:40] [DEBUG] 心跳发送成功
+[07-30 15:22:14] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:22:14] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:22:14] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:22:14] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:22:15] [INFO] 连接成功，机器人开始运行
+[07-30 15:22:15] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:22:31] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:22:31] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:22:31] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:22:31] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:22:32] [INFO] 连接成功，机器人开始运行
+[07-30 15:22:32] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:22:37] [ERROR] AttributeError("'dict' object has no attribute 'safety'")
+[07-30 15:22:37] [ERROR] [error:AttributeError("'dict' object has no attribute 'safety'")] File "d:\code\qqbot0729\robot.py", line 39, in deliver
+[07-30 15:23:13] [DEBUG] 心跳发送成功
+[07-30 15:23:54] [DEBUG] 心跳发送成功
+[07-30 15:24:35] [DEBUG] 心跳发送成功
+[07-30 15:25:12] [INFO] 已开启沙箱环境，发送消息时将频道方将自动添加[sandbox]字样，如需关闭请传参is_sandbox=False
+[07-30 15:25:12] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[07-30 15:25:12] [INFO] 消息（所有消息）接收函数订阅成功
+[07-30 15:25:13] [DEBUG] [机器人ws地址] wss://sandbox.api.sgroup.qq.com/websocket
+[07-30 15:25:13] [INFO] 连接成功，机器人开始运行
+[07-30 15:25:16] [INFO] 机器人频道用户ID：16339539897453438804
+[07-30 15:25:54] [DEBUG] 心跳发送成功
+[07-30 15:26:36] [DEBUG] 心跳发送成功
+[07-30 15:27:17] [DEBUG] 心跳发送成功
+[07-30 15:27:58] [DEBUG] 心跳发送成功
+[07-30 15:28:39] [DEBUG] 心跳发送成功
+[07-30 15:29:21] [DEBUG] 心跳发送成功
+[07-30 15:30:02] [DEBUG] 心跳发送成功
+[07-30 15:30:43] [DEBUG] 心跳发送成功
+[07-30 15:31:24] [DEBUG] 心跳发送成功
+[07-30 15:32:06] [DEBUG] 心跳发送成功
+[07-30 15:32:47] [DEBUG] 心跳发送成功
+[07-30 15:33:28] [DEBUG] 心跳发送成功
+[07-30 15:34:09] [DEBUG] 心跳发送成功
+[07-30 15:34:51] [DEBUG] 心跳发送成功
+[07-30 15:35:32] [DEBUG] 心跳发送成功
+[07-30 15:36:13] [DEBUG] 心跳发送成功
+[07-30 15:36:55] [DEBUG] 心跳发送成功
+[07-30 15:37:36] [DEBUG] 心跳发送成功
+[07-30 15:38:17] [DEBUG] 心跳发送成功
+[07-30 15:38:58] [DEBUG] 心跳发送成功
+[07-30 15:39:40] [DEBUG] 心跳发送成功
+[07-30 15:40:21] [DEBUG] 心跳发送成功
+[07-30 15:40:51] [ERROR] ClientOSError(22, '指定的网络名不再可用。', None, 64, None)
+[07-30 15:40:51] [ERROR] [error:ClientOSError(22, '指定的网络名不再可用。', None, 64, None)] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\streams.py", line 622, in read
+[07-30 15:41:02] [DEBUG] 心跳发送成功
+[07-30 15:41:43] [DEBUG] 心跳发送成功
+[07-30 15:42:25] [DEBUG] 心跳发送成功
+[07-30 15:43:06] [DEBUG] 心跳发送成功
+[07-30 15:43:47] [DEBUG] 心跳发送成功
+[07-30 15:44:28] [DEBUG] 心跳发送成功
+[07-30 15:45:10] [DEBUG] 心跳发送成功
+[07-30 15:45:51] [DEBUG] 心跳发送成功
+[07-30 15:46:32] [DEBUG] 心跳发送成功
+[07-30 15:47:13] [DEBUG] 心跳发送成功
