@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from qg_botsdk import BOT, Model
 from openai import OpenAI
 import os
