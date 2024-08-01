@@ -2,13 +2,17 @@ from qg_botsdk import BOT, Model
 from openai import OpenAI
 import os
 import json
-os.chdir('D:/code/qqbot0729')
-bot = BOT(bot_id="102070552", bot_token="qHAvc3v8Me2XvIdspk4MgWPcEcAsN2A3", is_private=True , is_sandbox=False)
 
+bot = BOT(bot_id="102070552", bot_token="qHAvc3v8Me2XvIdspk4MgWPcEcAsN2A3", is_private=True , is_sandbox=False)
+#print('Current Working Directory:'+os.getcwd())
+data_path = os.path.dirname(__file__)
+os.chdir(data_path)
+#print(data_path)
 
 
 def deepseek(msg,filename='check.txt'):
     client = OpenAI(api_key="sk-5939c8ddb4ce4902a97b13e87ad02779", base_url="https://api.deepseek.com")
+    #print('filename='+filename)
     with open(filename, 'r',encoding='utf-8') as file:
         system_prompt=file.read()
     #print("system_prompt:"+system_prompt)
