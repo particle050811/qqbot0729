@@ -5,10 +5,11 @@ import os
 import json
 
 bot = BOT(bot_id="102070552", bot_token="qHAvc3v8Me2XvIdspk4MgWPcEcAsN2A3", is_private=True , is_sandbox=False)
-#print('Current Working Directory:'+os.getcwd())
+print('Current Working Directory:'+os.getcwd())
 data_path = os.path.dirname(__file__)
+print(data_path)
 os.chdir(data_path)
-#print(data_path)
+
 
 
 def deepseek(msg,filename='check.txt'):
