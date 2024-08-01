@@ -1493,3 +1493,19 @@
 [08-01 10:40:36] [DEBUG] 心跳发送成功
 [08-01 10:41:18] [DEBUG] 心跳发送成功
 [08-01 10:41:59] [DEBUG] 心跳发送成功
+[08-01 16:22:57] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-01 16:22:57] [INFO] 消息（所有消息）接收函数订阅成功
+[08-01 16:22:57] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-01 16:22:58] [INFO] 连接成功，机器人开始运行
+[08-01 16:22:58] [INFO] 机器人频道用户ID：16339539897453438804
+[08-01 16:23:16] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-01 16:23:16] [INFO] 消息（所有消息）接收函数订阅成功
+[08-01 16:23:16] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-01 16:23:17] [INFO] 连接成功，机器人开始运行
+[08-01 16:23:17] [INFO] 机器人频道用户ID：16339539897453438804
+[08-01 16:23:58] [DEBUG] 心跳发送成功
+[08-01 16:24:26] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-01 16:24:26] [INFO] 消息（所有消息）接收函数订阅成功
+[08-01 16:24:27] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-01 16:24:27] [INFO] 连接成功，机器人开始运行
+[08-01 16:24:27] [INFO] 机器人频道用户ID：16339539897453438804
