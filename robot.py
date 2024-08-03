@@ -5,21 +5,22 @@ import os
 import json
 from datetime import datetime
 import re
+
+
 bot = BOT(bot_id="102070552", bot_token="qHAvc3v8Me2XvIdspk4MgWPcEcAsN2A3", is_private=True , is_sandbox=False)
+with open('wash.txt', 'r',encoding='utf-8') as file:
+    wash=file.read()
+with open('check.txt', 'r',encoding='utf-8') as file:
+    check=file.read()
 
-
-def deepseek(msg,filename='check.txt'):
+def deepseek(msg,prompt):
     client = OpenAI(api_key="sk-5939c8ddb4ce4902a97b13e87ad02779", base_url="https://api.deepseek.com")
-    #print('filename='+filename)
-    with open(filename, 'r',encoding='utf-8') as file:
-        system_prompt=file.read()
-    #print("system_prompt:"+system_prompt)
     response = client.chat.completions.create(
         model="deepseek-chat",
         messages=[
             {
                 "role":"system",
-                "content": system_prompt
+                "content": prompt
             }, 
             {
                 "role": "user", 
@@ -31,20 +32,20 @@ def deepseek(msg,filename='check.txt'):
             'type': 'json_object'
         }
     )
-    #print(f'response={response}')
-    print(f'prompt_cache_hit_tokens={response.usage.prompt_cache_hit_tokens}')
-    print(f'prompt_cache_miss_tokens={response.usage.prompt_cache_miss_tokens}')
+    #bot.logger.info(f'response={response}')
+    bot.logger.info(f'prompt_cache_hit_tokens={response.usage.prompt_cache_hit_tokens}')
+    bot.logger.info(f'prompt_cache_miss_tokens={response.usage.prompt_cache_miss_tokens}')
     return response.choices[0].message.content
     
     
 def translate(meseage):
     msg=json.loads(meseage)
-    #print(msg)
+    #bot.logger.info(msg)
     if msg['委托表'] != '通过':
         return msg['委托表']
     reply = ''
     for value in msg.values():
-        #print(f'Value: {value}')
+        #bot.logger.info(f'Value: {value}')
         if value!='通过':
             reply += f'{value}\n'
     return reply
@@ -55,7 +56,7 @@ def is_at(user):
 
 def getId(guild_id,name):
     lst=bot.api.get_guild_roles(guild_id)
-    #print(lst)
+    #bot.logger.info(lst)
     for sf in lst.data.roles:
         if sf.name in name:
             return sf.id
@@ -64,16 +65,17 @@ def query(msg):
     time1=datetime.now()
     if '深渊使用率' in msg or '角色持有' in msg:
         return '玩原神玩的'
-    #print('###msg\n'+msg+'\n###msg\n')
-    reply1=deepseek(msg,'wash.txt')
-    #print('###reply1\n'+reply1+'\n###reply1\n')
-    reply2=deepseek(reply1,'check.txt')
-    #print('###reply2\n'+reply2+'\n###reply2\n')
+    #bot.logger.info('###msg\n'+msg+'\n###msg\n')
+    reply1=deepseek(msg,wash)
+    #bot.logger.info('###reply1\n'+reply1+'\n###reply1\n')
+    reply2=deepseek(reply1,check)
+    #bot.logger.info('###reply2\n'+reply2+'\n###reply2\n')
     reply=translate(reply2)
     time2=datetime.now()
-    print('AI共花费了：',end='')
-    print(time2 - time1)
+    bot.logger.info('AI共花费了：')
+    bot.logger.info(time2 - time1)
     return reply
+
 
 @bot.bind_msg()
 def deliver(data: Model.MESSAGE):
@@ -83,27 +85,28 @@ def deliver(data: Model.MESSAGE):
     if (channelName=='幽灵的频道'):
         return
     formal_id=getId(data.guild_id,['正式成员'])
-    #print(data.author.username+":"+data.treated_msg)
-    #print(data)    
-    #print('频道名：'+channelName)
-    #print(data.content)
-    #print(data.treated_msg)
-    #print('@小灵bot' in data.treated_msg)
+    #bot.logger.info(data.author.username+":"+data.treated_msg)
+    #bot.logger.info(data)    
+    #bot.logger.info('频道名：'+channelName)
+    #bot.logger.info(data.content)
+    #bot.logger.info(data.treated_msg)bot.logger.info
+    #bot.logger.info('@小灵bot' in data.treated_msg)
     reply=''
     cleaned_msg = re.sub(r'<@!\d+>', '', data.content)
-    #print(len(cleaned_msg))
-    #print('过' in cleaned_msg)
-    #print(cleaned_msg)
+    #bot.logger.info(len(cleaned_msg))
+    #bot.logger.info('过' in cleaned_msg)
+    #bot.logger.info(cleaned_msg)
+
     success='你通过了考核，可以去互助区发帖找人互助了。发完帖后不要等别人找你，主动找别人互助效率更高\n'
     if (len(cleaned_msg)<5 and '过' in cleaned_msg):
-        #print('已经检测到 过 指令')
+        #bot.logger.info('已经检测到 过 指令')
         lst = bot.api.get_guild_roles(data.guild_id)
         adminIds = [sf.id for sf in lst.data.roles if '管理' in sf.name]
         authorIds = data.member.roles
-        #print(f'adminIds:{adminIds}')
-        #print(f'authorIds:{authorIds}')
+        #bot.logger.info(f'adminIds:{adminIds}')
+        #bot.logger.info(f'authorIds:{authorIds}')
         if (set(adminIds) & set(authorIds)):
-            #print('指令 发起人为管理员')
+            #bot.logger.info('指令 发起人为管理员')
             if ('mentions' not in data.__dict__):
                 data.reply('你没有指定任何人设置为正式成员',message_reference_id=data.id)
                 return
@@ -117,17 +120,37 @@ def deliver(data: Model.MESSAGE):
 
     
     if ('mentions' in data.__dict__ and is_at(data.mentions)) or '@小灵bot' in data.treated_msg:
-        print('机器人准备回复了')
+        bot.logger.info('机器人准备回复了')
+        data.reply('机器人正在审核')
         reply=query(data.treated_msg)
         head='<@'+data.author.id+'>'+'\n'
         if reply=='':
-            print('  '+data.author.username+'成功通过考核')
+            bot.logger.info(data.author.username+' 成功通过考核')
             bot.api.create_role_member(user_id=data.author.id,guild_id=data.guild_id,role_id=formal_id)
             reply+=success
         data.reply(head+reply,message_reference_id=data.id) 
     time2=datetime.now()   
-    print('回复消息共花费了：',end='')
-    print(time2 - time1)
+    bot.logger.info('回复消息共花费了：')
+    bot.logger.info(time2 - time1)
+@bot.bind_forum()
+def forum_function(data: Model.FORUMS_EVENT):
+    if data.t != 'FORUM_THREAD_CREATE':
+        return
+    formal_id=getId(data.guild_id,['正式成员'])
+    #bot.logger.info(data)
+    #bot.logger.info(data.thread_info)
+    user=bot.api.get_member_info(data.guild_id,data.author_id)
+    roles=user.data.roles
+    if formal_id in roles:
+        return
+    bot.logger.info('非正式成员'+user.data.user.username+'发帖')
+    bot.api.delete_thread(data.channel_id,data.thread_info.thread_id)
+    bot.logger.info('已清除非法帖子')
+    direct_id=bot.api.create_dm_guild(data.author_id,data.guild_id).data.guild_id
+    #bot.logger.info(direct_id)
+    content='由于很多人的举报信息收集表填写不完整，导致互助效率极度低下，故本频道需要通过考核后才能发帖。请先看公告，再去考核区参与考核。'
+    bot.api.send_dm(guild_id=direct_id,content=content,message_id=data.thread_info.thread_id)
+    bot.logger.info('已提醒成员先去考核区考核')
 
 if __name__ == "__main__":
     bot.start()

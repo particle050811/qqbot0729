@@ -1,0 +1,447 @@
+[08-03 09:38:51] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 09:38:51] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 09:38:52] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 09:38:53] [INFO] 连接成功，机器人开始运行
+[08-03 09:38:53] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 09:39:34] [DEBUG] 心跳发送成功
+[08-03 09:40:17] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 09:40:17] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 09:40:18] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 09:40:18] [INFO] 连接成功，机器人开始运行
+[08-03 09:40:19] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 09:41:00] [DEBUG] 心跳发送成功
+[08-03 09:41:41] [DEBUG] 心跳发送成功
+[08-03 09:42:22] [DEBUG] 心跳发送成功
+[08-03 09:43:04] [DEBUG] 心跳发送成功
+[08-03 09:43:45] [DEBUG] 心跳发送成功
+[08-03 09:44:26] [DEBUG] 心跳发送成功
+[08-03 09:45:07] [DEBUG] 心跳发送成功
+[08-03 09:45:49] [DEBUG] 心跳发送成功
+[08-03 09:46:30] [DEBUG] 心跳发送成功
+[08-03 09:47:11] [DEBUG] 心跳发送成功
+[08-03 09:47:52] [DEBUG] 心跳发送成功
+[08-03 09:48:37] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 09:48:37] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 09:48:37] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 09:48:38] [INFO] 连接成功，机器人开始运行
+[08-03 09:48:38] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 09:48:51] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400893/threads/08b9bddfa6d983e6920b10fdfbaeb1023803488099b6b506)调用错误[500]，详情：{"code":503003,"message":"thread_id is invalid"}，trace_id：628f3b9659d461e3f9bb0d443d8ca1f0
+[08-03 09:49:19] [DEBUG] 心跳发送成功
+[08-03 09:50:00] [DEBUG] 心跳发送成功
+[08-03 09:50:42] [DEBUG] 心跳发送成功
+[08-03 09:51:23] [DEBUG] 心跳发送成功
+[08-03 09:52:04] [DEBUG] 心跳发送成功
+[08-03 09:52:46] [DEBUG] 心跳发送成功
+[08-03 09:53:27] [DEBUG] 心跳发送成功
+[08-03 09:54:08] [DEBUG] 心跳发送成功
+[08-03 09:54:49] [DEBUG] 心跳发送成功
+[08-03 09:55:31] [DEBUG] 心跳发送成功
+[08-03 09:56:12] [DEBUG] 心跳发送成功
+[08-03 09:56:53] [DEBUG] 心跳发送成功
+[08-03 09:57:34] [DEBUG] 心跳发送成功
+[08-03 09:58:16] [DEBUG] 心跳发送成功
+[08-03 09:58:57] [DEBUG] 心跳发送成功
+[08-03 09:59:38] [DEBUG] 心跳发送成功
+[08-03 10:00:19] [DEBUG] 心跳发送成功
+[08-03 10:01:01] [DEBUG] 心跳发送成功
+[08-03 10:01:42] [DEBUG] 心跳发送成功
+[08-03 10:02:23] [DEBUG] 心跳发送成功
+[08-03 10:03:04] [DEBUG] 心跳发送成功
+[08-03 10:03:46] [DEBUG] 心跳发送成功
+[08-03 10:04:27] [DEBUG] 心跳发送成功
+[08-03 10:05:30] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 10:05:30] [INFO] 重连成功，机器人继续运行
+[08-03 10:06:17] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:06:17] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:06:18] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:06:18] [INFO] 连接成功，机器人开始运行
+[08-03 10:06:19] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:06:36] [INFO] {"author": "{\"avatar\": \"http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711\", \"bot\": false, \"id\": \"7702932596097654633\", \"username\": \"\\u5e7d\\u7075\"}", "channel_id": "640400893", "content": "\u6b63\u6587", "guild_id": "803215361374150329", "id": "08b9bddfa6d983e6920b10fdfbaeb102380448a9a1b6b506", "member": "{\"joined_at\": \"2024-03-19T08:52:31+08:00\", \"nick\": \"\\u5e7d\\u7075\", \"roles\": [\"4\", \"18728375\", \"18761125\", \"20\"]}", "seq": 4, "seq_in_channel": "4", "timestamp": "2024-08-03T10:06:33+08:00", "t": "MESSAGE_CREATE", "event_id": "MESSAGE_CREATE:08b9bddfa6d983e6920b10fdfbaeb102380448a9a1b6b506", "treated_msg": "\u6b63\u6587", "api": "<qg_botsdk.api.API object at 0x0000027B2EF9F520>"}
+[08-03 10:06:36] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400893/threads/08b9bddfa6d983e6920b10fdfbaeb102380448a9a1b6b506)调用错误[500]，详情：{"code":503003,"message":"thread_id is invalid"}，trace_id：5a5238a9e54b2a1de05b4aa2091e68e5
+[08-03 10:06:36] [INFO] {"data": {"code": 503003, "message": "thread_id is invalid"}, "trace_id": "5a5238a9e54b2a1de05b4aa2091e68e5", "http_code": 500, "result": false}
+[08-03 10:06:36] [ERROR] TypeError("wrap() got an unexpected keyword argument 'end'")
+[08-03 10:06:36] [ERROR] [error:TypeError("wrap() got an unexpected keyword argument 'end'")] File "d:\code\qqbot0729\robot.py", line 133, in deliver
+[08-03 10:07:00] [DEBUG] 心跳发送成功
+[08-03 10:07:41] [DEBUG] 心跳发送成功
+[08-03 10:08:22] [DEBUG] 心跳发送成功
+[08-03 10:09:04] [DEBUG] 心跳发送成功
+[08-03 10:09:45] [DEBUG] 心跳发送成功
+[08-03 10:10:26] [DEBUG] 心跳发送成功
+[08-03 10:11:08] [DEBUG] 心跳发送成功
+[08-03 10:11:49] [DEBUG] 心跳发送成功
+[08-03 10:12:30] [DEBUG] 心跳发送成功
+[08-03 10:13:11] [DEBUG] 心跳发送成功
+[08-03 10:13:52] [DEBUG] 心跳发送成功
+[08-03 10:14:34] [DEBUG] 心跳发送成功
+[08-03 10:19:29] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:19:29] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:19:29] [INFO] Session Manager结束中，正在保存数据...
+[08-03 10:20:11] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:20:11] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:20:11] [INFO] 论坛事件订阅成功
+[08-03 10:20:12] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:20:14] [INFO] 连接成功，机器人开始运行
+[08-03 10:20:14] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:20:59] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:20:59] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:20:59] [INFO] 论坛事件订阅成功
+[08-03 10:21:01] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:21:01] [INFO] 连接成功，机器人开始运行
+[08-03 10:21:02] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:21:10] [INFO] {"author_id": "7702932596097654633", "channel_id": "640400893", "guild_id": "803215361374150329", "thread_info": {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}, {"elems": [{"text": {"text": "\n"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:21:07+08:00", "thread_id": "B_1394ad66591b0a001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}}, "t": "FORUM_THREAD_CREATE", "event_id": "FORUM_THREAD_CREATE:261489392_3df4beb0-e2c3-47c9-afa6-2a62bbb35337"}
+[08-03 10:21:10] [INFO] {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}, {"elems": [{"text": {"text": "\n"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:21:07+08:00", "thread_id": "B_1394ad66591b0a001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}}
+[08-03 10:21:10] [INFO] {"author_id": "7702932596097654633", "channel_id": "640400893", "guild_id": "803215361374150329", "thread_info": {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}, {"elems": [{"text": {"text": "\n"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:21:07+08:00", "thread_id": "B_1394ad66591b0a001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}}, "t": "FORUM_THREAD_UPDATE", "event_id": "FORUM_THREAD_UPDATE:0_dcec54db-80de-4040-ae48-260a979d0ab4"}
+[08-03 10:21:10] [INFO] {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}, {"elems": [{"text": {"text": "\n"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:21:07+08:00", "thread_id": "B_1394ad66591b0a001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}}
+[08-03 10:21:10] [INFO] {"author": "{\"avatar\": \"http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711\", \"bot\": false, \"id\": \"7702932596097654633\", \"username\": \"\\u5e7d\\u7075\"}", "channel_id": "640400893", "content": "\u6807\u9898", "guild_id": "803215361374150329", "id": "08b9bddfa6d983e6920b10fdfbaeb10238064893a8b6b506", "member": "{\"joined_at\": \"2024-03-19T08:52:31+08:00\", \"nick\": \"\\u5e7d\\u7075\", \"roles\": [\"4\", \"18728375\", \"18761125\", \"20\"]}", "seq": 6, "seq_in_channel": "6", "timestamp": "2024-08-03T10:21:07+08:00", "t": "MESSAGE_CREATE", "event_id": "MESSAGE_CREATE:08b9bddfa6d983e6920b10fdfbaeb10238064893a8b6b506", "treated_msg": "\u6807\u9898", "api": "<qg_botsdk.api.API object at 0x000001A7DCDEF520>"}
+[08-03 10:21:10] [INFO] 回复消息共花费了：
+[08-03 10:21:10] [INFO] 0:00:00.743135
+[08-03 10:21:11] [INFO] {"author_id": "7702932596097654633", "channel_id": "640400893", "guild_id": "803215361374150329", "thread_info": {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}, {"elems": [{"text": {"text": "\n"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:21:07+08:00", "thread_id": "B_1394ad66591b0a001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}}, "t": "FORUM_THREAD_UPDATE", "event_id": "FORUM_THREAD_UPDATE:261489392_697f16ce-7970-493f-aa61-37be9da4febe"}
+[08-03 10:21:11] [INFO] {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}, {"elems": [{"text": {"text": "\n"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:21:07+08:00", "thread_id": "B_1394ad66591b0a001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}}
+[08-03 10:21:43] [DEBUG] 心跳发送成功
+[08-03 10:22:31] [DEBUG] 心跳发送成功
+[08-03 10:23:19] [DEBUG] 心跳发送成功
+[08-03 10:23:46] [DEBUG] 心跳发送成功
+[08-03 10:24:28] [DEBUG] 心跳发送成功
+[08-03 10:25:09] [DEBUG] 心跳发送成功
+[08-03 10:25:50] [DEBUG] 心跳发送成功
+[08-03 10:26:18] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:26:18] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:26:18] [INFO] 论坛事件订阅成功
+[08-03 10:26:18] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:26:19] [INFO] 连接成功，机器人开始运行
+[08-03 10:26:19] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:26:29] [ERROR] NameError("name 'userbot' is not defined")
+[08-03 10:26:29] [ERROR] [error:NameError("name 'userbot' is not defined")] File "d:\code\qqbot0729\robot.py", line 138, in forum_function
+[08-03 10:26:29] [ERROR] NameError("name 'userbot' is not defined")
+[08-03 10:26:29] [ERROR] [error:NameError("name 'userbot' is not defined")] File "d:\code\qqbot0729\robot.py", line 138, in forum_function
+[08-03 10:26:29] [INFO] {"author": "{\"avatar\": \"http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711\", \"bot\": false, \"id\": \"7702932596097654633\", \"username\": \"\\u5e7d\\u7075\"}", "channel_id": "640400893", "content": "\u6807\u9898", "guild_id": "803215361374150329", "id": "08b9bddfa6d983e6920b10fdfbaeb102380748d3aab6b506", "member": "{\"joined_at\": \"2024-03-19T08:52:31+08:00\", \"nick\": \"\\u5e7d\\u7075\", \"roles\": [\"4\", \"18728375\", \"18761125\", \"20\"]}", "seq": 7, "seq_in_channel": "7", "timestamp": "2024-08-03T10:26:27+08:00", "t": "MESSAGE_CREATE", "event_id": "MESSAGE_CREATE:08b9bddfa6d983e6920b10fdfbaeb102380748d3aab6b506", "treated_msg": "\u6807\u9898", "api": "<qg_botsdk.api.API object at 0x00000189D842F550>"}
+[08-03 10:26:29] [INFO] 回复消息共花费了：
+[08-03 10:26:29] [INFO] 0:00:00.617868
+[08-03 10:26:30] [ERROR] NameError("name 'userbot' is not defined")
+[08-03 10:26:30] [ERROR] [error:NameError("name 'userbot' is not defined")] File "d:\code\qqbot0729\robot.py", line 138, in forum_function
+[08-03 10:26:57] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:26:57] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:26:57] [INFO] 论坛事件订阅成功
+[08-03 10:26:58] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:26:58] [INFO] 连接成功，机器人开始运行
+[08-03 10:26:59] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:27:13] [INFO] 回复消息共花费了：
+[08-03 10:27:13] [INFO] 0:00:00.819512
+[08-03 10:27:38] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:27:38] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:27:38] [INFO] 论坛事件订阅成功
+[08-03 10:27:38] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:27:39] [INFO] 连接成功，机器人开始运行
+[08-03 10:27:39] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:27:47] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "eaa06ea29aa98e6373be32beb8b51041", "http_code": 200, "result": true}
+[08-03 10:27:48] [INFO] 回复消息共花费了：
+[08-03 10:27:48] [INFO] 0:00:00.657018
+[08-03 10:27:48] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "13ba4e81eb5880ad91553204ce11f719", "http_code": 200, "result": true}
+[08-03 10:27:49] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "cf2ba125f51dbf46a929f58854a9aee8", "http_code": 200, "result": true}
+[08-03 10:28:20] [DEBUG] 心跳发送成功
+[08-03 10:28:52] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:28:52] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:28:52] [INFO] 论坛事件订阅成功
+[08-03 10:28:52] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:28:53] [INFO] 连接成功，机器人开始运行
+[08-03 10:28:53] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:29:06] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "60220a437eb908d9e71e62bbd110e978", "http_code": 200, "result": true}
+[08-03 10:29:06] [INFO] 回复消息共花费了：
+[08-03 10:29:06] [INFO] 0:00:00.813907
+[08-03 10:29:07] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "6a286b31700e94b890073436fe0fb7b7", "http_code": 200, "result": true}
+[08-03 10:29:08] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "4d9e687765ce78d2ed16ee3a8a516e29", "http_code": 200, "result": true}
+[08-03 10:29:34] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 10:29:35] [INFO] 重连成功，机器人继续运行
+[08-03 10:30:07] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:30:07] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:30:07] [INFO] 论坛事件订阅成功
+[08-03 10:30:07] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:30:08] [INFO] 连接成功，机器人开始运行
+[08-03 10:30:08] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:30:25] [INFO] 回复消息共花费了：
+[08-03 10:30:25] [INFO] 0:00:00.612420
+[08-03 10:30:25] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "acb14d57076ad900d6422342766d1b65", "http_code": 200, "result": true}
+[08-03 10:30:25] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "c304123458a61402a6e4991a0dca6327", "http_code": 200, "result": true}
+[08-03 10:30:25] [INFO] {"data": {"user": {"id": "7702932596097654633", "username": "\u5e7d\u7075", "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=kgPmib64Ge8qBDZ2rJf0ILg&kti=ZJv1DgAAAAE&s=0&t=1663121711", "bot": false, "union_openid": "D7E368CF8A8D0B0193590730A74D45AB", "union_user_account": ""}, "nick": "\u5e7d\u7075", "roles": ["4", "18728375", "18761125", "20"], "joined_at": "2024-03-19T08:52:31+08:00"}, "trace_id": "2f57e79a75c3c0dd2bbe84b5ae8d32fb", "http_code": 200, "result": true}
+[08-03 10:30:49] [DEBUG] 心跳发送成功
+[08-03 10:31:31] [DEBUG] 心跳发送成功
+[08-03 10:32:12] [DEBUG] 心跳发送成功
+[08-03 10:32:53] [DEBUG] 心跳发送成功
+[08-03 10:33:02] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:33:02] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:33:02] [INFO] 论坛事件订阅成功
+[08-03 10:33:03] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:33:04] [INFO] 连接成功，机器人开始运行
+[08-03 10:33:04] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:33:45] [DEBUG] 心跳发送成功
+[08-03 10:33:54] [INFO] 非正式成员发帖
+[08-03 10:33:54] [INFO] 回复消息共花费了：
+[08-03 10:33:54] [INFO] 0:00:00.400148
+[08-03 10:33:54] [INFO] 非正式成员发帖
+[08-03 10:33:55] [INFO] 非正式成员发帖
+[08-03 10:34:26] [DEBUG] 心跳发送成功
+[08-03 10:35:07] [DEBUG] 心跳发送成功
+[08-03 10:35:49] [DEBUG] 心跳发送成功
+[08-03 10:36:49] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 10:36:50] [INFO] 重连成功，机器人继续运行
+[08-03 10:37:03] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:37:03] [INFO] 论坛事件订阅成功
+[08-03 10:37:03] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:37:04] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:37:04] [INFO] 连接成功，机器人开始运行
+[08-03 10:37:04] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:37:13] [INFO] 非正式成员发帖
+[08-03 10:37:14] [INFO] 非正式成员发帖
+[08-03 10:37:14] [INFO] 回复消息共花费了：
+[08-03 10:37:14] [INFO] 0:00:00.556850
+[08-03 10:37:15] [INFO] 非正式成员发帖
+[08-03 10:37:37] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:37:37] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:37:37] [INFO] 论坛事件订阅成功
+[08-03 10:37:37] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:37:38] [INFO] 连接成功，机器人开始运行
+[08-03 10:37:38] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:37:44] [INFO] {"author_id": "7702932596097654633", "channel_id": "640400893", "guild_id": "803215361374150329", "thread_info": {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:37:42+08:00", "thread_id": "B_f697ad66a47104001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}]}}, "t": "FORUM_THREAD_CREATE", "event_id": "FORUM_THREAD_CREATE:261489392_cb2e9147-2a27-48fa-a641-0f234f6f650e"}
+[08-03 10:37:45] [INFO] {"author_id": "7702932596097654633", "channel_id": "640400893", "guild_id": "803215361374150329", "thread_info": {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:37:42+08:00", "thread_id": "B_f697ad66a47104001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}]}}, "t": "FORUM_THREAD_UPDATE", "event_id": "FORUM_THREAD_UPDATE:0_4a3a0534-1748-42b8-8e28-92f3086fb9a4"}
+[08-03 10:37:45] [INFO] 非正式成员发帖
+[08-03 10:37:45] [INFO] 回复消息共花费了：
+[08-03 10:37:45] [INFO] 0:00:00.743596
+[08-03 10:37:45] [INFO] 非正式成员发帖
+[08-03 10:37:46] [INFO] {"author_id": "7702932596097654633", "channel_id": "640400893", "guild_id": "803215361374150329", "thread_info": {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:37:42+08:00", "thread_id": "B_f697ad66a47104001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}]}}, "t": "FORUM_THREAD_UPDATE", "event_id": "FORUM_THREAD_UPDATE:261489392_d42e8872-e1bd-4ca9-9b1b-902df389c76e"}
+[08-03 10:37:46] [INFO] 非正式成员发帖
+[08-03 10:38:19] [DEBUG] 心跳发送成功
+[08-03 10:39:01] [DEBUG] 心跳发送成功
+[08-03 10:39:42] [DEBUG] 心跳发送成功
+[08-03 10:40:23] [DEBUG] 心跳发送成功
+[08-03 10:41:04] [DEBUG] 心跳发送成功
+[08-03 10:41:36] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:41:36] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:41:36] [INFO] 论坛事件订阅成功
+[08-03 10:41:36] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:41:37] [INFO] 连接成功，机器人开始运行
+[08-03 10:41:37] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:41:44] [INFO] {"author_id": "7702932596097654633", "channel_id": "640400893", "guild_id": "803215361374150329", "thread_info": {"content": {"paragraphs": [{"elems": [{"text": {"text": "\u6807\u9898"}, "type": 1}], "props": {}}]}, "date_time": "2024-08-03T10:41:42+08:00", "thread_id": "B_e698ad66228001001441152192082765750X60", "title": {"paragraphs": [{"elems": [{"text": {"text": "\u6b63\u6587"}, "type": 1}], "props": {}}]}}, "t": "FORUM_THREAD_CREATE", "event_id": "FORUM_THREAD_CREATE:261489392_456fce97-7462-4fc6-ac37-1e8436a6d34a"}
+[08-03 10:41:44] [INFO] 非正式成员发帖
+[08-03 10:41:44] [INFO] 回复消息共花费了：
+[08-03 10:41:44] [INFO] 0:00:00.570950
+[08-03 10:42:18] [DEBUG] 心跳发送成功
+[08-03 10:42:59] [DEBUG] 心跳发送成功
+[08-03 10:44:00] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 10:44:00] [INFO] 重连成功，机器人继续运行
+[08-03 10:44:08] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:44:08] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:44:08] [INFO] 论坛事件订阅成功
+[08-03 10:44:08] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:44:09] [INFO] 连接成功，机器人开始运行
+[08-03 10:44:09] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:44:45] [ERROR] ClientOSError(22, '信号灯超时时间已到', None, 121, None)
+[08-03 10:44:45] [ERROR] [error:ClientOSError(22, '信号灯超时时间已到', None, 121, None)] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\streams.py", line 622, in read
+[08-03 10:44:50] [DEBUG] 心跳发送成功
+[08-03 10:45:13] [INFO] 非正式成员发帖
+[08-03 10:45:13] [ERROR] AttributeError("'event_class' object has no attribute 'thread_id'")
+[08-03 10:45:13] [ERROR] [error:AttributeError("'event_class' object has no attribute 'thread_id'")] File "d:\code\qqbot0729\robot.py", line 145, in forum_function
+[08-03 10:45:14] [INFO] 回复消息共花费了：
+[08-03 10:45:14] [INFO] 0:00:00.321319
+[08-03 10:45:32] [DEBUG] 心跳发送成功
+[08-03 10:46:13] [DEBUG] 心跳发送成功
+[08-03 10:46:31] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:46:31] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:46:31] [INFO] 论坛事件订阅成功
+[08-03 10:46:32] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:46:33] [INFO] 连接成功，机器人开始运行
+[08-03 10:46:33] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:46:42] [INFO] 非正式成员发帖
+[08-03 10:46:42] [INFO] 已清除非法帖子
+[08-03 10:46:42] [INFO] 回复消息共花费了：
+[08-03 10:46:42] [INFO] 0:00:01.177493
+[08-03 10:47:14] [DEBUG] 心跳发送成功
+[08-03 10:47:55] [DEBUG] 心跳发送成功
+[08-03 10:48:37] [DEBUG] 心跳发送成功
+[08-03 10:49:18] [DEBUG] 心跳发送成功
+[08-03 10:49:59] [DEBUG] 心跳发送成功
+[08-03 10:50:40] [DEBUG] 心跳发送成功
+[08-03 10:51:21] [DEBUG] 心跳发送成功
+[08-03 10:52:22] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 10:52:22] [INFO] 重连成功，机器人继续运行
+[08-03 10:53:04] [DEBUG] 心跳发送成功
+[08-03 10:53:45] [DEBUG] 心跳发送成功
+[08-03 10:54:20] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:54:20] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:54:20] [INFO] 论坛事件订阅成功
+[08-03 10:54:20] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:54:21] [INFO] 连接成功，机器人开始运行
+[08-03 10:54:21] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:54:27] [INFO] 非正式成员发帖
+[08-03 10:54:27] [INFO] 回复消息共花费了：
+[08-03 10:54:27] [INFO] 0:00:00.727788
+[08-03 10:54:27] [INFO] 已清除非法帖子
+[08-03 10:54:27] [WARNING] HTTP API(url:https://api.sgroup.qq.com/users/@me/dms)调用错误[500]，详情：{"code":305001,"message":"backend error"}，trace_id：84d61044f93ff042fb7a13da96c5d4cc
+[08-03 10:54:27] [INFO] {"data": {"code": 305001, "message": "backend error"}, "trace_id": "84d61044f93ff042fb7a13da96c5d4cc", "http_code": 500, "result": false}
+[08-03 10:54:56] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 10:54:56] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 10:54:56] [INFO] 论坛事件订阅成功
+[08-03 10:54:57] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 10:54:57] [INFO] 连接成功，机器人开始运行
+[08-03 10:54:58] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 10:55:01] [INFO] 非正式成员发帖
+[08-03 10:55:02] [INFO] 回复消息共花费了：
+[08-03 10:55:02] [INFO] 0:00:00.512260
+[08-03 10:55:02] [INFO] 已清除非法帖子
+[08-03 10:55:02] [INFO] {"data": {"guild_id": "9885869291104633758", "channel_id": "63080461722653701", "create_time": "1722653701"}, "trace_id": "ca3beaede3433d72ad32d2649d3137ea", "http_code": 200, "result": true}
+[08-03 10:55:39] [DEBUG] 心跳发送成功
+[08-03 10:56:20] [DEBUG] 心跳发送成功
+[08-03 10:57:01] [DEBUG] 心跳发送成功
+[08-03 10:57:42] [DEBUG] 心跳发送成功
+[08-03 10:58:24] [DEBUG] 心跳发送成功
+[08-03 10:59:05] [DEBUG] 心跳发送成功
+[08-03 10:59:46] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 10:59:47] [INFO] 重连成功，机器人继续运行
+[08-03 11:00:28] [DEBUG] 心跳发送成功
+[08-03 11:01:10] [DEBUG] 心跳发送成功
+[08-03 11:01:51] [DEBUG] 心跳发送成功
+[08-03 11:02:32] [DEBUG] 心跳发送成功
+[08-03 11:03:13] [DEBUG] 心跳发送成功
+[08-03 11:04:14] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 11:04:17] [INFO] 重连成功，机器人继续运行
+[08-03 11:04:59] [DEBUG] 心跳发送成功
+[08-03 11:06:02] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:06:02] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:06:02] [INFO] 论坛事件订阅成功
+[08-03 11:06:03] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:06:03] [INFO] 连接成功，机器人开始运行
+[08-03 11:06:03] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:06:07] [INFO] 非正式成员发帖
+[08-03 11:06:07] [INFO] 已清除非法帖子
+[08-03 11:06:07] [INFO] 9885869291104633758
+[08-03 11:06:07] [INFO] 回复消息共花费了：
+[08-03 11:06:07] [INFO] 0:00:00.618175
+[08-03 11:06:08] [WARNING] HTTP API(url:https://api.sgroup.qq.com/dms/9885869291104633758/messages)调用错误[400]，详情：{"code":304053,"message":"请求参数event_id无效","err_code":40034025,"trace_id":"e5bdb39cb4e5a71d03da3c3e233dcdd7"}，trace_id：e5bdb39cb4e5a71d03da3c3e233dcdd7
+[08-03 11:06:08] [INFO] 已提醒成员先去考核区考核
+[08-03 11:06:45] [DEBUG] 心跳发送成功
+[08-03 11:07:26] [DEBUG] 心跳发送成功
+[08-03 11:08:07] [DEBUG] 心跳发送成功
+[08-03 11:08:54] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:08:54] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:08:54] [INFO] 论坛事件订阅成功
+[08-03 11:08:55] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:08:55] [INFO] 连接成功，机器人开始运行
+[08-03 11:08:55] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:08:59] [INFO] 非正式成员发帖
+[08-03 11:09:00] [INFO] 已清除非法帖子
+[08-03 11:09:00] [INFO] 回复消息共花费了：
+[08-03 11:09:00] [INFO] 0:00:00.554916
+[08-03 11:09:00] [INFO] 9885869291104633758
+[08-03 11:09:00] [WARNING] HTTP API(url:https://api.sgroup.qq.com/dms/9885869291104633758/messages)调用错误[400]，详情：{"code":304053,"message":"请求参数event_id无效","err_code":40034025,"trace_id":"6ee68dc770b2b76cd43942d78c6b425b"}，trace_id：6ee68dc770b2b76cd43942d78c6b425b
+[08-03 11:09:00] [INFO] 已提醒成员先去考核区考核
+[08-03 11:09:13] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:09:13] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:09:13] [INFO] 论坛事件订阅成功
+[08-03 11:09:13] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:09:14] [INFO] 连接成功，机器人开始运行
+[08-03 11:09:14] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:09:22] [INFO] 非正式成员发帖
+[08-03 11:09:22] [INFO] 回复消息共花费了：
+[08-03 11:09:22] [INFO] 0:00:00.667231
+[08-03 11:09:22] [INFO] 已清除非法帖子
+[08-03 11:09:22] [INFO] 9885869291104633758
+[08-03 11:09:22] [INFO] 已提醒成员先去考核区考核
+[08-03 11:09:56] [DEBUG] 心跳发送成功
+[08-03 11:10:37] [DEBUG] 心跳发送成功
+[08-03 11:11:18] [DEBUG] 心跳发送成功
+[08-03 11:11:59] [DEBUG] 心跳发送成功
+[08-03 11:13:48] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:13:48] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:13:48] [INFO] 论坛事件订阅成功
+[08-03 11:13:48] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:13:49] [INFO] 连接成功，机器人开始运行
+[08-03 11:13:49] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:14:05] [INFO] 非正式成员发帖
+[08-03 11:14:05] [INFO] 已清除非法帖子
+[08-03 11:14:05] [INFO] 15314138914594751831
+[08-03 11:14:06] [INFO] 回复消息共花费了：
+[08-03 11:14:06] [INFO] 0:00:00.656721
+[08-03 11:14:06] [WARNING] HTTP API(url:https://api.sgroup.qq.com/dms/15314138914594751831/messages)调用错误[400]，详情：{"code":304003,"message":"请求参数不允许包含url pd.qq.com","err_code":40034028,"trace_id":"dada6faf5b55b810271c52b6cddeb74a"}，trace_id：dada6faf5b55b810271c52b6cddeb74a
+[08-03 11:14:06] [INFO] 已提醒成员先去考核区考核
+[08-03 11:14:30] [DEBUG] 心跳发送成功
+[08-03 11:15:11] [DEBUG] 心跳发送成功
+[08-03 11:15:51] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:15:51] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:15:51] [INFO] 论坛事件订阅成功
+[08-03 11:15:52] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:15:52] [INFO] 连接成功，机器人开始运行
+[08-03 11:15:52] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:15:58] [INFO] 非正式成员发帖
+[08-03 11:15:58] [INFO] 回复消息共花费了：
+[08-03 11:15:58] [INFO] 0:00:00.409911
+[08-03 11:15:58] [INFO] 已清除非法帖子
+[08-03 11:15:59] [INFO] 15314138914594751831
+[08-03 11:15:59] [INFO] 已提醒成员先去考核区考核
+[08-03 11:16:34] [DEBUG] 心跳发送成功
+[08-03 11:17:15] [DEBUG] 心跳发送成功
+[08-03 11:17:56] [DEBUG] 心跳发送成功
+[08-03 11:18:37] [DEBUG] 心跳发送成功
+[08-03 11:19:19] [DEBUG] 心跳发送成功
+[08-03 11:19:48] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:19:48] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:19:48] [INFO] 论坛事件订阅成功
+[08-03 11:19:49] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:19:49] [INFO] 连接成功，机器人开始运行
+[08-03 11:19:50] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:20:05] [INFO] 非正式成员particle发帖
+[08-03 11:20:05] [INFO] 回复消息共花费了：
+[08-03 11:20:05] [INFO] 0:00:00.657006
+[08-03 11:20:05] [INFO] 已清除非法帖子
+[08-03 11:20:05] [INFO] 已提醒成员先去考核区考核
+[08-03 11:20:31] [DEBUG] 心跳发送成功
+[08-03 11:20:54] [INFO] 机器人准备回复了
+[08-03 11:20:57] [INFO] prompt_cache_hit_tokens=1216
+[08-03 11:20:57] [INFO] prompt_cache_miss_tokens=39
+[08-03 11:21:01] [INFO] prompt_cache_hit_tokens=1216
+[08-03 11:21:01] [INFO] prompt_cache_miss_tokens=17
+[08-03 11:21:01] [INFO] AI共花费了：
+[08-03 11:21:01] [INFO] 0:00:07.065431
+[08-03 11:21:01] [INFO] 回复消息共花费了：
+[08-03 11:21:01] [INFO] 0:00:08.503080
+[08-03 11:21:12] [DEBUG] 心跳发送成功
+[08-03 11:21:53] [DEBUG] 心跳发送成功
+[08-03 11:22:35] [DEBUG] 心跳发送成功
+[08-03 11:22:40] [INFO] 机器人准备回复了
+[08-03 11:22:47] [INFO] prompt_cache_hit_tokens=1408
+[08-03 11:22:47] [INFO] prompt_cache_miss_tokens=19
+[08-03 11:22:51] [INFO] prompt_cache_hit_tokens=1280
+[08-03 11:22:51] [INFO] prompt_cache_miss_tokens=34
+[08-03 11:22:51] [INFO] AI共花费了：
+[08-03 11:22:51] [INFO] 0:00:10.434612
+[08-03 11:22:51] [INFO]   幽灵成功通过考核
+[08-03 11:22:52] [INFO] 回复消息共花费了：
+[08-03 11:22:52] [INFO] 0:00:11.834941
+[08-03 11:23:16] [DEBUG] 心跳发送成功
+[08-03 11:24:16] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 11:24:17] [INFO] 重连成功，机器人继续运行
+[08-03 11:24:39] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:24:39] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:24:39] [INFO] 论坛事件订阅成功
+[08-03 11:24:40] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:24:40] [INFO] 连接成功，机器人开始运行
+[08-03 11:24:41] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:24:48] [INFO] 机器人准备回复了
+[08-03 11:24:56] [INFO] prompt_cache_hit_tokens=1408
+[08-03 11:24:56] [INFO] prompt_cache_miss_tokens=19
+[08-03 11:24:59] [INFO] prompt_cache_hit_tokens=1280
+[08-03 11:24:59] [INFO] prompt_cache_miss_tokens=34
+[08-03 11:24:59] [INFO] AI共花费了：
+[08-03 11:24:59] [INFO] 0:00:10.854903
+[08-03 11:24:59] [INFO]   幽灵成功通过考核
+[08-03 11:25:00] [INFO] 回复消息共花费了：
+[08-03 11:25:00] [INFO] 0:00:12.583503
+[08-03 11:25:22] [DEBUG] 心跳发送成功
+[08-03 11:26:03] [DEBUG] 心跳发送成功
+[08-03 11:26:32] [INFO] 回复消息共花费了：
+[08-03 11:26:32] [INFO] 0:00:00.585272
+[08-03 11:26:44] [DEBUG] 心跳发送成功
+[08-03 11:27:32] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:27:32] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:27:32] [INFO] 论坛事件订阅成功
+[08-03 11:27:32] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:27:33] [INFO] 连接成功，机器人开始运行
+[08-03 11:27:33] [INFO] 机器人频道用户ID：16339539897453438804
