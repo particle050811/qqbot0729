@@ -128,9 +128,9 @@ def deliver(data: Model.MESSAGE):
     
     if ('mentions' in data.__dict__ and is_at(data.mentions)) or '@小灵bot' in data.treated_msg:
         #bot.logger.info('机器人准备回复了')
+        head='<@'+data.author.id+'>'+'\n'
         data.reply(head+'机器人正在审核中,预计15s后会回复',message_reference_id=data.id)
         reply=query(data.treated_msg)
-        head='<@'+data.author.id+'>'+'\n'
         if reply=='':
             bot.logger.info(data.author.username+' 成功通过考核')
             bot.api.create_role_member(data.author.id,data.guild_id,formal_id)
