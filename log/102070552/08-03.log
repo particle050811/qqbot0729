@@ -445,3 +445,770 @@
 [08-03 11:27:32] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
 [08-03 11:27:33] [INFO] 连接成功，机器人开始运行
 [08-03 11:27:33] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:50:54] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:50:54] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:50:54] [INFO] 论坛事件订阅成功
+[08-03 11:50:55] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:50:55] [INFO] 连接成功，机器人开始运行
+[08-03 11:50:55] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:51:06] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 11:51:06] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 11:51:06] [INFO] 论坛事件订阅成功
+[08-03 11:51:07] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 11:51:07] [INFO] 连接成功，机器人开始运行
+[08-03 11:51:08] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 11:51:10] [INFO] 回复消息共花费了：
+[08-03 11:51:10] [INFO] 0:00:00.510103
+[08-03 11:51:10] [INFO] 回复消息共花费了：
+[08-03 11:51:10] [INFO] 0:00:00.625665
+[08-03 11:51:22] [INFO] 回复消息共花费了：
+[08-03 11:51:22] [INFO] 0:00:00.398341
+[08-03 11:51:49] [DEBUG] 心跳发送成功
+[08-03 11:52:30] [DEBUG] 心跳发送成功
+[08-03 11:53:11] [DEBUG] 心跳发送成功
+[08-03 11:53:45] [INFO] 回复消息共花费了：
+[08-03 11:53:45] [INFO] 0:00:01.017984
+[08-03 11:53:53] [DEBUG] 心跳发送成功
+[08-03 11:54:09] [INFO] 回复消息共花费了：
+[08-03 11:54:09] [INFO] 0:00:00.685035
+[08-03 11:54:34] [DEBUG] 心跳发送成功
+[08-03 11:55:15] [DEBUG] 心跳发送成功
+[08-03 11:55:56] [DEBUG] 心跳发送成功
+[08-03 11:56:38] [DEBUG] 心跳发送成功
+[08-03 11:57:19] [DEBUG] 心跳发送成功
+[08-03 11:58:00] [DEBUG] 心跳发送成功
+[08-03 11:58:42] [DEBUG] 心跳发送成功
+[08-03 11:59:23] [DEBUG] 心跳发送成功
+[08-03 12:00:04] [DEBUG] 心跳发送成功
+[08-03 12:00:45] [DEBUG] 心跳发送成功
+[08-03 12:01:26] [DEBUG] 心跳发送成功
+[08-03 12:02:08] [DEBUG] 心跳发送成功
+[08-03 13:49:54] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:49:54] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:49:54] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:49:54] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:49:57] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:49:57] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:49:57] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:00] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:00] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:00] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:03] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:03] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:03] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:06] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:06] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:06] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:09] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:09] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:09] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:12] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:12] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:12] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:15] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:15] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:15] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:18] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:18] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:18] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:21] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:21] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:21] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:24] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:24] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:24] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:27] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:27] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:27] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:30] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:30] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:30] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:33] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:33] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:33] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:36] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:36] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:36] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:39] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:39] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:39] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:42] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:42] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:42] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:45] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:45] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:45] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:48] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:48] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:48] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:51] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:51] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:51] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:54] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:54] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:54] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:50:57] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:50:57] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:50:57] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:00] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:00] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:00] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:03] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:03] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:03] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:06] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:06] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:06] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:09] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:09] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:09] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:12] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:12] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:12] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:15] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:15] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:15] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:18] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:18] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:18] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:21] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:21] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:21] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:24] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:24] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:24] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:27] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:27] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:27] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:30] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:30] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:30] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:33] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:33] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:33] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:36] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:36] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:36] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:39] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:39] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:39] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:42] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:42] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:42] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:45] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:45] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:45] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:48] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:48] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:48] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:51] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:51] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:51] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:54] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:54] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:54] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:51:57] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:51:57] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:51:57] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:52:00] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:52:00] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:52:00] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:52:03] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 13:52:03] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+[08-03 13:52:03] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x0000023381C467C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-03 13:52:07] [INFO] 连接成功，机器人开始运行
+[08-03 13:52:48] [DEBUG] 心跳发送成功
+[08-03 13:53:29] [DEBUG] 心跳发送成功
+[08-03 13:54:11] [DEBUG] 心跳发送成功
+[08-03 13:54:52] [DEBUG] 心跳发送成功
+[08-03 13:55:33] [DEBUG] 心跳发送成功
+[08-03 13:56:14] [DEBUG] 心跳发送成功
+[08-03 13:56:56] [DEBUG] 心跳发送成功
+[08-03 13:57:37] [DEBUG] 心跳发送成功
+[08-03 13:58:18] [DEBUG] 心跳发送成功
+[08-03 13:58:59] [DEBUG] 心跳发送成功
+[08-03 13:59:41] [DEBUG] 心跳发送成功
+[08-03 14:08:44] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 14:08:47] [INFO] 重连成功，机器人继续运行
+[08-03 14:09:29] [DEBUG] 心跳发送成功
+[08-03 14:10:10] [DEBUG] 心跳发送成功
+[08-03 14:10:51] [DEBUG] 心跳发送成功
+[08-03 14:11:32] [DEBUG] 心跳发送成功
+[08-03 14:12:14] [DEBUG] 心跳发送成功
+[08-03 14:12:55] [DEBUG] 心跳发送成功
+[08-03 14:13:36] [DEBUG] 心跳发送成功
+[08-03 14:14:17] [DEBUG] 心跳发送成功
+[08-03 14:14:59] [DEBUG] 心跳发送成功
+[08-03 14:15:40] [DEBUG] 心跳发送成功
+[08-03 14:16:21] [DEBUG] 心跳发送成功
+[08-03 14:17:03] [DEBUG] 心跳发送成功
+[08-03 14:17:44] [DEBUG] 心跳发送成功
+[08-03 14:18:25] [DEBUG] 心跳发送成功
+[08-03 14:19:06] [DEBUG] 心跳发送成功
+[08-03 14:19:48] [DEBUG] 心跳发送成功
+[08-03 14:20:29] [DEBUG] 心跳发送成功
+[08-03 14:21:10] [DEBUG] 心跳发送成功
+[08-03 14:21:51] [DEBUG] 心跳发送成功
+[08-03 14:22:33] [DEBUG] 心跳发送成功
+[08-03 14:35:07] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:35:07] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:35:07] [INFO] 论坛事件订阅成功
+[08-03 14:35:08] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:35:08] [INFO] 连接成功，机器人开始运行
+[08-03 14:35:09] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:35:27] [ERROR] TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")
+[08-03 14:35:27] [ERROR] [error:TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")] File "d:\code\qqbot0729\robot.py", line 82, in deliver
+[08-03 14:35:37] [ERROR] TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")
+[08-03 14:35:37] [ERROR] [error:TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")] File "d:\code\qqbot0729\robot.py", line 82, in deliver
+[08-03 14:35:48] [ERROR] TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")
+[08-03 14:35:48] [ERROR] [error:TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")] File "d:\code\qqbot0729\robot.py", line 82, in deliver
+[08-03 14:35:50] [DEBUG] 心跳发送成功
+[08-03 14:36:03] [ERROR] TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")
+[08-03 14:36:03] [ERROR] [error:TypeError("get_channels_info() missing 1 required positional argument: 'channel_id'")] File "d:\code\qqbot0729\robot.py", line 82, in deliver
+[08-03 14:36:31] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:36:31] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:36:31] [INFO] 论坛事件订阅成功
+[08-03 14:36:31] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:36:32] [INFO] 连接成功，机器人开始运行
+[08-03 14:36:32] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:36:36] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/13004711861241069697)调用错误[400]，详情：{"message":"频道不存在","code":11263,"err_code":40022001,"trace_id":"371c17cfee6e16b451c3516043d848c8"}，trace_id：371c17cfee6e16b451c3516043d848c8
+[08-03 14:36:36] [ERROR] TypeError("'Logger' object is not callable")
+[08-03 14:36:36] [ERROR] [error:TypeError("'Logger' object is not callable")] File "d:\code\qqbot0729\robot.py", line 82, in deliver
+[08-03 14:37:05] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:37:05] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:37:05] [INFO] 论坛事件订阅成功
+[08-03 14:37:06] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:37:06] [INFO] 连接成功，机器人开始运行
+[08-03 14:37:06] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:37:10] [ERROR] TypeError("'Logger' object is not callable")
+[08-03 14:37:10] [ERROR] [error:TypeError("'Logger' object is not callable")] File "d:\code\qqbot0729\robot.py", line 82, in deliver
+[08-03 14:37:22] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:37:22] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:37:22] [INFO] 论坛事件订阅成功
+[08-03 14:37:23] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:37:23] [INFO] 连接成功，机器人开始运行
+[08-03 14:37:23] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:38:05] [DEBUG] 心跳发送成功
+[08-03 14:38:46] [DEBUG] 心跳发送成功
+[08-03 14:38:56] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:38:56] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:38:56] [INFO] 论坛事件订阅成功
+[08-03 14:38:56] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:38:57] [INFO] 连接成功，机器人开始运行
+[08-03 14:38:57] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:39:35] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:39:35] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:39:35] [INFO] 论坛事件订阅成功
+[08-03 14:39:36] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:39:36] [INFO] 连接成功，机器人开始运行
+[08-03 14:39:36] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:40:17] [DEBUG] 心跳发送成功
+[08-03 14:40:59] [DEBUG] 心跳发送成功
+[08-03 14:41:40] [DEBUG] 心跳发送成功
+[08-03 14:42:21] [DEBUG] 心跳发送成功
+[08-03 14:43:03] [DEBUG] 心跳发送成功
+[08-03 14:43:44] [DEBUG] 心跳发送成功
+[08-03 14:44:25] [DEBUG] 心跳发送成功
+[08-03 14:45:06] [DEBUG] 心跳发送成功
+[08-03 14:56:10] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:56:10] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:56:10] [INFO] 论坛事件订阅成功
+[08-03 14:56:11] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:56:12] [INFO] 连接成功，机器人开始运行
+[08-03 14:56:12] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:56:53] [DEBUG] 心跳发送成功
+[08-03 14:57:30] [INFO] 聯山.非法发帖
+[08-03 14:57:30] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/655508173/threads/B_d6d4ad6694440c001441152188302364590X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：a2ada312964fa75d075a0171598f34f9
+[08-03 14:57:30] [INFO] 已清除非法帖子
+[08-03 14:57:30] [INFO] 已提醒成员
+[08-03 14:57:34] [DEBUG] 心跳发送成功
+[08-03 14:58:15] [DEBUG] 心跳发送成功
+[08-03 14:58:38] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 14:58:38] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 14:58:38] [INFO] 论坛事件订阅成功
+[08-03 14:58:39] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 14:58:39] [INFO] 连接成功，机器人开始运行
+[08-03 14:58:39] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 14:59:17] [INFO] particle非法发帖
+[08-03 14:59:17] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_42d5ad66b1d30d001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：266d6043e51377fe5992e6a7a338246e
+[08-03 14:59:17] [INFO] 已清除非法帖子
+[08-03 14:59:18] [WARNING] HTTP API(url:https://api.sgroup.qq.com/users/@me/dms)调用错误[500]，详情：{"code":305001,"message":"backend error"}，trace_id：6b3b1ff90252e9301d4fc67c7ad3d957
+[08-03 14:59:18] [ERROR] AttributeError("'object_class' object has no attribute 'guild_id'")
+[08-03 14:59:18] [ERROR] [error:AttributeError("'object_class' object has no attribute 'guild_id'")] File "d:\code\qqbot0729\robot.py", line 162, in forum_function
+[08-03 14:59:21] [DEBUG] 心跳发送成功
+[08-03 14:59:44] [INFO] 四年非法发帖
+[08-03 14:59:44] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/655508173/threads/B_5dd5ad669e0804001441152192471618480X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：616abf88e788be51006e7e1f2cf62c31
+[08-03 14:59:44] [INFO] 已清除非法帖子
+[08-03 14:59:45] [INFO] 已提醒成员
+[08-03 15:00:02] [DEBUG] 心跳发送成功
+[08-03 15:00:43] [DEBUG] 心跳发送成功
+[08-03 15:00:48] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 15:00:48] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 15:00:48] [INFO] 论坛事件订阅成功
+[08-03 15:00:49] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 15:00:49] [INFO] 连接成功，机器人开始运行
+[08-03 15:00:49] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 15:01:12] [INFO] particle非法发帖
+[08-03 15:01:12] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_b5d5ad66ed1705001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：6521e4bdfde3918d7e9fa689d9cbc548
+[08-03 15:01:12] [INFO] 已清除非法帖子
+[08-03 15:01:13] [INFO] 已提醒成员
+[08-03 15:01:31] [DEBUG] 心跳发送成功
+[08-03 15:02:12] [DEBUG] 心跳发送成功
+[08-03 15:02:53] [DEBUG] 心跳发送成功
+[08-03 15:03:31] [INFO] 凉拌🙈非法发帖
+[08-03 15:03:31] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/655508173/threads/B_40d6ad66291008001441152188693339960X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：ba4a1931fc98a8adff660f1729cc22b4
+[08-03 15:03:31] [INFO] 已清除非法帖子
+[08-03 15:03:32] [INFO] 已提醒成员
+[08-03 15:03:34] [DEBUG] 心跳发送成功
+[08-03 15:03:51] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 15:03:51] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 15:03:51] [INFO] 论坛事件订阅成功
+[08-03 15:03:52] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 15:03:52] [INFO] 连接成功，机器人开始运行
+[08-03 15:03:53] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 15:04:34] [DEBUG] 心跳发送成功
+[08-03 15:05:15] [DEBUG] 心跳发送成功
+[08-03 15:05:56] [DEBUG] 心跳发送成功
+[08-03 15:06:37] [DEBUG] 心跳发送成功
+[08-03 15:07:19] [DEBUG] 心跳发送成功
+[08-03 15:08:00] [DEBUG] 心跳发送成功
+[08-03 15:08:41] [DEBUG] 心跳发送成功
+[08-03 15:09:23] [DEBUG] 心跳发送成功
+[08-03 15:10:04] [DEBUG] 心跳发送成功
+[08-03 15:10:45] [DEBUG] 心跳发送成功
+[08-03 15:11:26] [DEBUG] 心跳发送成功
+[08-03 15:11:53] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 15:11:53] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 15:11:53] [INFO] 论坛事件订阅成功
+[08-03 15:11:54] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 15:11:54] [INFO] 连接成功，机器人开始运行
+[08-03 15:11:55] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 15:12:10] [INFO] 640400892
+[08-03 15:12:10] [INFO] 803215361374150329
+[08-03 15:12:36] [DEBUG] 心跳发送成功
+[08-03 15:12:53] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 15:12:53] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 15:12:53] [INFO] 论坛事件订阅成功
+[08-03 15:12:54] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 15:12:54] [INFO] 连接成功，机器人开始运行
+[08-03 15:12:55] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 15:13:01] [INFO] 640400892
+[08-03 15:13:01] [INFO] 640400892
+[08-03 15:13:01] [INFO] 正式成员发错地方了
+[08-03 15:13:01] [INFO] particle非法发帖
+[08-03 15:13:02] [INFO] 已清除非法帖子
+[08-03 15:13:02] [INFO] 已提醒成员
+[08-03 15:13:36] [DEBUG] 心跳发送成功
+[08-03 15:14:17] [DEBUG] 心跳发送成功
+[08-03 15:14:58] [DEBUG] 心跳发送成功
+[08-03 15:15:40] [DEBUG] 心跳发送成功
+[08-03 15:16:21] [DEBUG] 心跳发送成功
+[08-03 15:17:02] [DEBUG] 心跳发送成功
+[08-03 15:17:22] [INFO] 655513253
+[08-03 15:17:22] [INFO] 655508173
+[08-03 15:17:43] [DEBUG] 心跳发送成功
+[08-03 15:18:24] [DEBUG] 心跳发送成功
+[08-03 15:19:06] [DEBUG] 心跳发送成功
+[08-03 15:19:47] [DEBUG] 心跳发送成功
+[08-03 15:20:28] [DEBUG] 心跳发送成功
+[08-03 15:21:10] [DEBUG] 心跳发送成功
+[08-03 15:21:51] [DEBUG] 心跳发送成功
+[08-03 15:22:32] [DEBUG] 心跳发送成功
+[08-03 15:23:13] [DEBUG] 心跳发送成功
+[08-03 15:23:54] [DEBUG] 心跳发送成功
+[08-03 15:24:36] [DEBUG] 心跳发送成功
+[08-03 15:25:17] [DEBUG] 心跳发送成功
+[08-03 15:25:58] [DEBUG] 心跳发送成功
+[08-03 15:26:40] [DEBUG] 心跳发送成功
+[08-03 15:27:21] [DEBUG] 心跳发送成功
+[08-03 15:28:02] [DEBUG] 心跳发送成功
+[08-03 15:28:43] [DEBUG] 心跳发送成功
+[08-03 15:29:25] [DEBUG] 心跳发送成功
+[08-03 15:30:06] [DEBUG] 心跳发送成功
+[08-03 15:30:47] [DEBUG] 心跳发送成功
+[08-03 15:31:28] [DEBUG] 心跳发送成功
+[08-03 15:32:10] [DEBUG] 心跳发送成功
+[08-03 15:32:36] [INFO] 640400892
+[08-03 15:32:36] [INFO] 640400892
+[08-03 15:32:36] [INFO] 正式成员发错地方了
+[08-03 15:32:36] [INFO] particle非法发帖
+[08-03 15:32:37] [INFO] 已清除非法帖子
+[08-03 15:32:37] [INFO] 已提醒成员
+[08-03 15:32:51] [DEBUG] 心跳发送成功
+[08-03 15:32:59] [INFO] 640400892
+[08-03 15:32:59] [INFO] 640400892
+[08-03 15:32:59] [INFO] 正式成员发错地方了
+[08-03 15:32:59] [INFO] particle非法发帖
+[08-03 15:33:00] [INFO] 已清除非法帖子
+[08-03 15:33:00] [INFO] 已提醒成员
+[08-03 15:33:32] [DEBUG] 心跳发送成功
+[08-03 15:34:13] [DEBUG] 心跳发送成功
+[08-03 15:34:55] [DEBUG] 心跳发送成功
+[08-03 15:35:27] [INFO] 657944006
+[08-03 15:35:27] [INFO] 640400892
+[08-03 15:35:27] [INFO] 回复消息共花费了：
+[08-03 15:35:27] [INFO] 0:00:00.422078
+[08-03 15:35:36] [DEBUG] 心跳发送成功
+[08-03 15:36:17] [DEBUG] 心跳发送成功
+[08-03 15:36:45] [INFO] 655508173
+[08-03 15:36:45] [INFO] 655508173
+[08-03 15:36:45] [INFO] 正式成员发错地方了
+[08-03 15:36:45] [INFO] 一只天降小麻雀非法发帖
+[08-03 15:36:45] [INFO] 已清除非法帖子
+[08-03 15:36:46] [INFO] 已提醒成员
+[08-03 15:36:58] [DEBUG] 心跳发送成功
+[08-03 15:37:40] [DEBUG] 心跳发送成功
+[08-03 15:38:21] [DEBUG] 心跳发送成功
+[08-03 15:39:02] [DEBUG] 心跳发送成功
+[08-03 15:39:43] [DEBUG] 心跳发送成功
+[08-03 15:40:25] [DEBUG] 心跳发送成功
+[08-03 15:41:06] [DEBUG] 心跳发送成功
+[08-03 15:41:28] [INFO] 655508173
+[08-03 15:41:28] [INFO] 655508173
+[08-03 15:41:28] [INFO] 正式成员发错地方了
+[08-03 15:41:28] [INFO] 将走非法发帖
+[08-03 15:41:28] [INFO] 已清除非法帖子
+[08-03 15:41:29] [WARNING] HTTP API(url:https://api.sgroup.qq.com/dms/4013498001866804107/messages)调用错误[400]，详情：{"code":40034117,"message":"消息发送失败","err_code":40034117,"trace_id":"ebde20e2eb10a91359b811c9f9011ffd"}，trace_id：ebde20e2eb10a91359b811c9f9011ffd
+[08-03 15:41:29] [INFO] 已提醒成员
+[08-03 15:41:47] [DEBUG] 心跳发送成功
+[08-03 15:42:28] [DEBUG] 心跳发送成功
+[08-03 15:42:32] [INFO] 655513253
+[08-03 15:42:32] [INFO] 655508173
+[08-03 15:42:54] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 15:42:54] [INFO] 重连成功，机器人继续运行
+[08-03 15:43:36] [DEBUG] 心跳发送成功
+[08-03 15:44:17] [DEBUG] 心跳发送成功
+[08-03 15:44:58] [DEBUG] 心跳发送成功
+[08-03 15:45:40] [DEBUG] 心跳发送成功
+[08-03 15:46:21] [DEBUG] 心跳发送成功
+[08-03 15:47:02] [DEBUG] 心跳发送成功
+[08-03 15:47:28] [INFO] 655513253
+[08-03 15:47:28] [INFO] 655508173
+[08-03 15:47:43] [DEBUG] 心跳发送成功
+[08-03 15:48:03] [INFO] 655508173
+[08-03 15:48:03] [INFO] 655508173
+[08-03 15:48:03] [INFO] 正式成员发错地方了
+[08-03 15:48:03] [INFO] 逍遥 の幻梦非法发帖
+[08-03 15:48:03] [INFO] 已清除非法帖子
+[08-03 15:48:03] [INFO] 已提醒成员
+[08-03 15:48:06] [INFO] 655513253
+[08-03 15:48:06] [INFO] 655508173
+[08-03 15:48:25] [DEBUG] 心跳发送成功
+[08-03 15:49:06] [DEBUG] 心跳发送成功
+[08-03 15:49:29] [INFO] 655513253
+[08-03 15:49:29] [INFO] 655508173
+[08-03 15:49:47] [DEBUG] 心跳发送成功
+[08-03 15:50:28] [DEBUG] 心跳发送成功
+[08-03 15:51:10] [DEBUG] 心跳发送成功
+[08-03 15:51:51] [DEBUG] 心跳发送成功
+[08-03 15:52:32] [DEBUG] 心跳发送成功
+[08-03 15:53:13] [DEBUG] 心跳发送成功
+[08-03 15:53:39] [INFO] 655513253
+[08-03 15:53:39] [INFO] 655508173
+[08-03 15:53:55] [DEBUG] 心跳发送成功
+[08-03 15:54:36] [DEBUG] 心跳发送成功
+[08-03 15:55:17] [DEBUG] 心跳发送成功
+[08-03 15:55:58] [DEBUG] 心跳发送成功
+[08-03 15:55:59] [INFO] 655513253
+[08-03 15:55:59] [INFO] 655508173
+[08-03 15:56:40] [DEBUG] 心跳发送成功
+[08-03 15:57:16] [INFO] 周远航非法发帖
+[08-03 15:57:16] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/655508173/threads/B_d9e2ad66e72804001441152198317391880X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：8baba65167c4092d857aac8db6e94272
+[08-03 15:57:16] [INFO] 已清除非法帖子
+[08-03 15:57:16] [INFO] 已提醒成员
+[08-03 15:57:21] [DEBUG] 心跳发送成功
+[08-03 15:58:02] [DEBUG] 心跳发送成功
+[08-03 15:58:43] [DEBUG] 心跳发送成功
+[08-03 15:59:08] [INFO] 655508173
+[08-03 15:59:08] [INFO] 655508173
+[08-03 15:59:08] [INFO] 正式成员发错地方了
+[08-03 15:59:08] [INFO] 将走非法发帖
+[08-03 15:59:09] [INFO] 已清除非法帖子
+[08-03 15:59:09] [INFO] 已提醒成员
+[08-03 15:59:25] [DEBUG] 心跳发送成功
+[08-03 16:00:06] [DEBUG] 心跳发送成功
+[08-03 16:00:32] [INFO] 655508173
+[08-03 16:00:32] [INFO] 655508173
+[08-03 16:00:32] [INFO] 正式成员发错地方了
+[08-03 16:00:32] [INFO] 将走非法发帖
+[08-03 16:00:33] [INFO] 已清除非法帖子
+[08-03 16:00:33] [INFO] 已提醒成员
+[08-03 16:00:47] [DEBUG] 心跳发送成功
+[08-03 16:01:28] [DEBUG] 心跳发送成功
+[08-03 16:01:40] [INFO] 655513253
+[08-03 16:01:40] [INFO] 655508173
+[08-03 16:02:07] [INFO] 655513253
+[08-03 16:02:07] [INFO] 655508173
+[08-03 16:02:10] [DEBUG] 心跳发送成功
+[08-03 16:02:17] [INFO] 655513253
+[08-03 16:02:17] [INFO] 655508173
+[08-03 16:02:37] [INFO] 机器人准备回复了
+[08-03 16:02:38] [INFO] 回复消息共花费了：
+[08-03 16:02:38] [INFO] 0:00:01.531331
+[08-03 16:02:51] [DEBUG] 心跳发送成功
+[08-03 16:03:10] [INFO] 机器人准备回复了
+[08-03 16:03:11] [INFO] 回复消息共花费了：
+[08-03 16:03:11] [INFO] 0:00:01.545486
+[08-03 16:03:32] [DEBUG] 心跳发送成功
+[08-03 16:04:13] [DEBUG] 心跳发送成功
+[08-03 16:04:55] [DEBUG] 心跳发送成功
+[08-03 16:05:36] [DEBUG] 心跳发送成功
+[08-03 16:06:17] [DEBUG] 心跳发送成功
+[08-03 16:06:59] [DEBUG] 心跳发送成功
+[08-03 16:07:40] [DEBUG] 心跳发送成功
+[08-03 16:08:21] [DEBUG] 心跳发送成功
+[08-03 16:09:02] [DEBUG] 心跳发送成功
+[08-03 16:09:44] [DEBUG] 心跳发送成功
+[08-03 16:09:52] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 16:09:55] [INFO] 重连成功，机器人继续运行
+[08-03 16:10:37] [DEBUG] 心跳发送成功
+[08-03 19:11:40] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:11:40] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:11:40] [INFO] 论坛事件订阅成功
+[08-03 19:11:41] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:11:41] [INFO] 连接成功，机器人开始运行
+[08-03 19:11:42] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:13:44] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:13:44] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:13:44] [INFO] 论坛事件订阅成功
+[08-03 19:13:44] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:13:45] [INFO] 连接成功，机器人开始运行
+[08-03 19:13:45] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:14:26] [DEBUG] 心跳发送成功
+[08-03 19:14:40] [INFO] 640400892
+[08-03 19:14:40] [INFO] 640400892
+[08-03 19:14:40] [INFO] 正式成员发错地方了
+[08-03 19:14:40] [INFO] particle非法发帖
+[08-03 19:14:41] [INFO] 已清除非法帖子
+[08-03 19:14:41] [ERROR] TypeError("send_msg() got an unexpected keyword argument 'guild_id'")
+[08-03 19:14:41] [ERROR] [error:TypeError("send_msg() got an unexpected keyword argument 'guild_id'")] File "d:\code\qqbot0729\robot.py", line 174, in forum_function
+[08-03 19:15:07] [DEBUG] 心跳发送成功
+[08-03 19:15:49] [DEBUG] 心跳发送成功
+[08-03 19:15:51] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:15:51] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:15:51] [INFO] 论坛事件订阅成功
+[08-03 19:15:52] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:15:53] [INFO] 连接成功，机器人开始运行
+[08-03 19:15:53] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:16:34] [DEBUG] 心跳发送成功
+[08-03 19:17:05] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:17:05] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:17:05] [INFO] 论坛事件订阅成功
+[08-03 19:17:06] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:17:06] [INFO] 连接成功，机器人开始运行
+[08-03 19:17:06] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:17:23] [INFO] 640400892
+[08-03 19:17:23] [INFO] 640400892
+[08-03 19:17:23] [INFO] 正式成员发错地方了
+[08-03 19:17:23] [INFO] particle非法发帖
+[08-03 19:17:24] [INFO] 已清除非法帖子
+[08-03 19:17:25] [INFO] 已提醒成员
+[08-03 19:17:48] [DEBUG] 心跳发送成功
+[08-03 19:18:05] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:18:05] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:18:05] [INFO] 论坛事件订阅成功
+[08-03 19:18:05] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:18:06] [INFO] 连接成功，机器人开始运行
+[08-03 19:18:06] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:18:27] [INFO] 640400892
+[08-03 19:18:27] [INFO] 640400892
+[08-03 19:18:27] [INFO] 正式成员发错地方了
+[08-03 19:18:27] [INFO] particle非法发帖
+[08-03 19:18:28] [INFO] 已清除非法帖子
+[08-03 19:18:28] [INFO] 已提醒成员
+[08-03 19:18:47] [DEBUG] 心跳发送成功
+[08-03 19:19:18] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:19:18] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:19:18] [INFO] 论坛事件订阅成功
+[08-03 19:19:18] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:19:19] [INFO] 连接成功，机器人开始运行
+[08-03 19:19:19] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:19:23] [INFO] 640400892
+[08-03 19:19:23] [INFO] 640400892
+[08-03 19:19:23] [INFO] 正式成员发错地方了
+[08-03 19:19:23] [INFO] particle非法发帖
+[08-03 19:19:23] [INFO] 已清除非法帖子
+[08-03 19:19:24] [INFO] 已提醒成员
+[08-03 19:20:00] [DEBUG] 心跳发送成功
+[08-03 19:20:41] [DEBUG] 心跳发送成功
+[08-03 19:20:47] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:20:47] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:20:47] [INFO] 论坛事件订阅成功
+[08-03 19:20:47] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:20:48] [INFO] 连接成功，机器人开始运行
+[08-03 19:20:48] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:21:00] [INFO] 正式成员发错地方了
+[08-03 19:21:00] [INFO] particle非法发帖
+[08-03 19:21:29] [DEBUG] 心跳发送成功
+[08-03 19:22:11] [DEBUG] 心跳发送成功
+[08-03 19:22:21] [INFO] 正式成员发错地方了
+[08-03 19:22:21] [INFO] particle非法发帖
+[08-03 19:22:52] [DEBUG] 心跳发送成功
+[08-03 19:22:55] [INFO] 正式成员发错地方了
+[08-03 19:22:55] [INFO] particle非法发帖
+[08-03 19:23:33] [DEBUG] 心跳发送成功
+[08-03 19:24:14] [DEBUG] 心跳发送成功
+[08-03 19:24:56] [DEBUG] 心跳发送成功
+[08-03 19:25:37] [DEBUG] 心跳发送成功
+[08-03 19:26:18] [DEBUG] 心跳发送成功
+[08-03 19:26:59] [DEBUG] 心跳发送成功
+[08-03 19:27:41] [DEBUG] 心跳发送成功
+[08-03 19:28:22] [DEBUG] 心跳发送成功
+[08-03 19:29:03] [DEBUG] 心跳发送成功
+[08-03 19:29:44] [DEBUG] 心跳发送成功
+[08-03 19:30:26] [DEBUG] 心跳发送成功
+[08-03 19:31:07] [DEBUG] 心跳发送成功
+[08-03 19:31:48] [DEBUG] 心跳发送成功
+[08-03 19:32:29] [DEBUG] 心跳发送成功
+[08-03 19:32:55] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:32:55] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:32:55] [INFO] 论坛事件订阅成功
+[08-03 19:32:55] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:32:56] [INFO] 连接成功，机器人开始运行
+[08-03 19:32:56] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:33:37] [DEBUG] 心跳发送成功
+[08-03 19:34:17] [INFO] particle非法发帖
+[08-03 19:34:17] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_b615ae6615a306001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：f77f1c07156fffb14fd6954376fe623e
+[08-03 19:34:17] [ERROR] AttributeError("'API' object has no attribute 'thr'")
+[08-03 19:34:17] [ERROR] [error:AttributeError("'API' object has no attribute 'thr'")] File "d:\code\qqbot0729\robot.py", line 169, in forum_function
+[08-03 19:34:18] [DEBUG] 心跳发送成功
+[08-03 19:35:00] [DEBUG] 心跳发送成功
+[08-03 19:35:13] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:35:13] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:35:13] [INFO] 论坛事件订阅成功
+[08-03 19:35:13] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:35:13] [INFO] 连接成功，机器人开始运行
+[08-03 19:35:14] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:35:55] [DEBUG] 心跳发送成功
+[08-03 19:36:36] [DEBUG] 心跳发送成功
+[08-03 19:37:06] [INFO] particle非法发帖
+[08-03 19:37:07] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_5f16ae660cd80a001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：165d05cce6ee956420cac1958e47a57d
+[08-03 19:37:17] [DEBUG] 心跳发送成功
+[08-03 19:37:59] [DEBUG] 心跳发送成功
+[08-03 19:38:40] [DEBUG] 心跳发送成功
+[08-03 19:39:21] [DEBUG] 心跳发送成功
+[08-03 19:40:02] [DEBUG] 心跳发送成功
+[08-03 19:40:44] [DEBUG] 心跳发送成功
+[08-03 19:41:25] [DEBUG] 心跳发送成功
+[08-03 19:42:06] [DEBUG] 心跳发送成功
+[08-03 19:42:47] [DEBUG] 心跳发送成功
+[08-03 19:43:29] [DEBUG] 心跳发送成功
+[08-03 19:44:10] [DEBUG] 心跳发送成功
+[08-03 19:44:51] [DEBUG] 心跳发送成功
+[08-03 19:45:32] [DEBUG] 心跳发送成功
+[08-03 19:46:14] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-03 19:46:14] [INFO] 重连成功，机器人继续运行
+[08-03 19:46:56] [DEBUG] 心跳发送成功
+[08-03 19:47:37] [DEBUG] 心跳发送成功
+[08-03 19:47:49] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:47:49] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:47:49] [INFO] 论坛事件订阅成功
+[08-03 19:47:50] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:47:51] [INFO] 连接成功，机器人开始运行
+[08-03 19:47:51] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:48:01] [INFO] particle非法发帖
+[08-03 19:48:02] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_ee18ae66fab70b001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：cc12b3b557892b5ff32fda0cf214b13a
+[08-03 19:48:40] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:48:40] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:48:40] [INFO] 论坛事件订阅成功
+[08-03 19:48:41] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:48:41] [INFO] 连接成功，机器人开始运行
+[08-03 19:48:41] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:48:52] [INFO] particle非法发帖
+[08-03 19:48:52] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_2119ae66086906001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：f7de2fa3e7af0c36d836ea058ceb9e26
+[08-03 19:48:52] [INFO] 已清除非法帖子
+[08-03 19:48:53] [INFO] 已提醒成员
+[08-03 19:49:15] [INFO] particle非法发帖
+[08-03 19:49:15] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_3819ae6642ef00001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：ae9f561cd7fff1007373f26888627ebe
+[08-03 19:49:15] [INFO] 已清除非法帖子
+[08-03 19:49:15] [INFO] 已提醒成员
+[08-03 19:49:22] [DEBUG] 心跳发送成功
+[08-03 19:50:04] [DEBUG] 心跳发送成功
+[08-03 19:50:45] [DEBUG] 心跳发送成功
+[08-03 19:50:49] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:50:49] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:50:49] [INFO] 论坛事件订阅成功
+[08-03 19:50:49] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:50:50] [INFO] 连接成功，机器人开始运行
+[08-03 19:50:50] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:51:06] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_a719ae66a45106001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：7ec0d139a3e4ddf3488b8382be16f256
+[08-03 19:51:31] [DEBUG] 心跳发送成功
+[08-03 19:52:14] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 19:52:14] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 19:52:14] [INFO] 论坛事件订阅成功
+[08-03 19:52:14] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 19:52:15] [INFO] 连接成功，机器人开始运行
+[08-03 19:52:15] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 19:52:30] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_fb19ae66a91e02001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：fb47206dd5496942c27701b9d94a25ed
+[08-03 19:52:57] [DEBUG] 心跳发送成功
+[08-03 19:53:20] [ERROR] ClientOSError(22, '指定的网络名不再可用。', None, 64, None)
+[08-03 19:53:21] [ERROR] [error:ClientOSError(22, '指定的网络名不再可用。', None, 64, None)] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\streams.py", line 622, in read
+[08-03 19:53:38] [DEBUG] 心跳发送成功
+[08-03 19:53:56] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_511aae66da2805001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：e0fa3b29465d3774b1c90c61e922055c
+[08-03 19:54:19] [DEBUG] 心跳发送成功
+[08-03 19:55:00] [DEBUG] 心跳发送成功
+[08-03 19:55:41] [DEBUG] 心跳发送成功
+[08-03 19:56:23] [DEBUG] 心跳发送成功
+[08-03 19:57:04] [DEBUG] 心跳发送成功
+[08-03 19:57:45] [DEBUG] 心跳发送成功
+[08-03 19:58:27] [DEBUG] 心跳发送成功
+[08-03 19:59:08] [DEBUG] 心跳发送成功
+[08-03 19:59:49] [DEBUG] 心跳发送成功
+[08-03 19:59:55] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=-8581685651402239484), ConnectionResetError(22, '指定的网络名不再可用。', None, 64, None))
+[08-03 19:59:55] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=-8581685651402239484), ConnectionResetError(22, '指定的网络名不再可用。', None, 64, None))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1000, in _wrap_create_connection
+[08-03 20:00:02] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=-8581685651402239484), ConnectionResetError(22, '指定的网络名不再可用。', None, 64, None))
+[08-03 20:00:02] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=-8581685651402239484), ConnectionResetError(22, '指定的网络名不再可用。', None, 64, None))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1000, in _wrap_create_connection
+[08-03 20:00:30] [DEBUG] 心跳发送成功
+[08-03 20:01:12] [DEBUG] 心跳发送成功
+[08-03 20:01:53] [DEBUG] 心跳发送成功
+[08-03 20:02:05] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 20:02:05] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 20:02:05] [INFO] 论坛事件订阅成功
+[08-03 20:02:05] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 20:02:06] [INFO] 连接成功，机器人开始运行
+[08-03 20:02:06] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 20:02:44] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 20:02:44] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 20:02:44] [INFO] 论坛事件订阅成功
+[08-03 20:02:44] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 20:02:44] [INFO] 连接成功，机器人开始运行
+[08-03 20:02:45] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 20:02:50] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_671cae6678550b001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：c32ab4b42c9395bd2b11c731b99f0459
+[08-03 20:03:26] [DEBUG] 心跳发送成功
+[08-03 20:03:38] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 20:03:38] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 20:03:38] [INFO] 论坛事件订阅成功
+[08-03 20:03:38] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 20:03:39] [INFO] 连接成功，机器人开始运行
+[08-03 20:03:39] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 20:04:17] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 20:04:17] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 20:04:17] [INFO] 论坛事件订阅成功
+[08-03 20:04:18] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 20:04:18] [INFO] 连接成功，机器人开始运行
+[08-03 20:04:18] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 20:04:23] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_c41cae6617c403001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：aaa22cf1110fc1473d04c6f527dbab90
+[08-03 20:04:24] [WARNING] Deprecated warning: 此发送方式即将废弃，请使用send_msg()并传入msg_model中的消息对象
+[08-03 20:04:24] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/657968187/messages)调用错误[500]，详情：{"code":304005,"message":"reach embed size or field size limit,embed.fields limit","err_code":304005,"trace_id":"885a62667151e31c8970e442a1200fdc"}，trace_id：885a62667151e31c8970e442a1200fdc
+[08-03 20:04:59] [DEBUG] 心跳发送成功
+[08-03 20:05:41] [DEBUG] 心跳发送成功
+[08-03 20:06:22] [DEBUG] 心跳发送成功
+[08-03 20:07:03] [DEBUG] 心跳发送成功
+[08-03 20:07:44] [DEBUG] 心跳发送成功
+[08-03 20:08:26] [DEBUG] 心跳发送成功
+[08-03 20:08:45] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 20:08:45] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 20:08:45] [INFO] 论坛事件订阅成功
+[08-03 20:08:45] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 20:08:46] [INFO] 连接成功，机器人开始运行
+[08-03 20:08:46] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 20:08:54] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_d31dae6687d202001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：624f6910b2249ea963f9a885e83663fc
+[08-03 20:09:27] [DEBUG] 心跳发送成功
+[08-03 20:11:06] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-03 20:11:06] [INFO] 消息（所有消息）接收函数订阅成功
+[08-03 20:11:06] [INFO] 论坛事件订阅成功
+[08-03 20:11:06] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-03 20:11:07] [INFO] 连接成功，机器人开始运行
+[08-03 20:11:07] [INFO] 机器人频道用户ID：16339539897453438804
+[08-03 20:11:14] [INFO] particle非法发帖
+[08-03 20:11:14] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_5f1eae66c7470e001441152189347118930X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：91f2dc6445cbb8a91ca06db7d6a4afaa

@@ -12,7 +12,7 @@ with open('wash.txt', 'r',encoding='utf-8') as file:
     wash=file.read()
 with open('check.txt', 'r',encoding='utf-8') as file:
     check=file.read()
-
+permit_channel='中学学习交流频道'
 def deepseek(msg,prompt):
     client = OpenAI(api_key="sk-5939c8ddb4ce4902a97b13e87ad02779", base_url="https://api.deepseek.com")
     response = client.chat.completions.create(
@@ -33,8 +33,8 @@ def deepseek(msg,prompt):
         }
     )
     #bot.logger.info(f'response={response}')
-    bot.logger.info(f'prompt_cache_hit_tokens={response.usage.prompt_cache_hit_tokens}')
-    bot.logger.info(f'prompt_cache_miss_tokens={response.usage.prompt_cache_miss_tokens}')
+    #bot.logger.info(f'prompt_cache_hit_tokens={response.usage.prompt_cache_hit_tokens}')
+    #bot.logger.info(f'prompt_cache_miss_tokens={response.usage.prompt_cache_miss_tokens}')
     return response.choices[0].message.content
     
     
@@ -61,6 +61,12 @@ def getId(guild_id,name):
         if sf.name in name:
             return sf.id
 
+def getChannelId(lst,name):
+    for channel in lst:
+        if (channel.name==name):
+            return channel.id
+    bot.logger.warning('不存在该子频道')
+
 def query(msg):
     time1=datetime.now()
     if '深渊使用率' in msg or '角色持有' in msg:
@@ -79,14 +85,15 @@ def query(msg):
 
 @bot.bind_msg()
 def deliver(data: Model.MESSAGE):
-
+    #print(bot.api.get_guild_channels(data.guild_id))
+    #print()
     time1=datetime.now()
     channelName=bot.api.get_guild_info(data.guild_id).data.name
-    if (channelName=='幽灵的频道'):
+    if (channelName!=permit_channel):
         return
     formal_id=getId(data.guild_id,['正式成员'])
     #bot.logger.info(data.author.username+":"+data.treated_msg)
-    #bot.logger.info(data)    
+    bot.logger.info(data)    
     #bot.logger.info('频道名：'+channelName)
     #bot.logger.info(data.content)
     #bot.logger.info(data.treated_msg)bot.logger.info
@@ -98,7 +105,7 @@ def deliver(data: Model.MESSAGE):
     #bot.logger.info(cleaned_msg)
 
     success='你通过了考核，可以去互助区发帖找人互助了。发完帖后不要等别人找你，主动找别人互助效率更高\n'
-    if (len(cleaned_msg)<5 and '过' in cleaned_msg):
+    if (len(cleaned_msg)<2 and '过' in cleaned_msg):
         #bot.logger.info('已经检测到 过 指令')
         lst = bot.api.get_guild_roles(data.guild_id)
         adminIds = [sf.id for sf in lst.data.roles if '管理' in sf.name]
@@ -120,13 +127,13 @@ def deliver(data: Model.MESSAGE):
 
     
     if ('mentions' in data.__dict__ and is_at(data.mentions)) or '@小灵bot' in data.treated_msg:
-        bot.logger.info('机器人准备回复了')
-        data.reply('机器人正在审核')
+        #bot.logger.info('机器人准备回复了')
+        data.reply(head+'机器人正在审核中,预计15s后会回复',message_reference_id=data.id)
         reply=query(data.treated_msg)
         head='<@'+data.author.id+'>'+'\n'
         if reply=='':
             bot.logger.info(data.author.username+' 成功通过考核')
-            bot.api.create_role_member(user_id=data.author.id,guild_id=data.guild_id,role_id=formal_id)
+            bot.api.create_role_member(data.author.id,data.guild_id,formal_id)
             reply+=success
         data.reply(head+reply,message_reference_id=data.id) 
     time2=datetime.now()   
@@ -136,21 +143,40 @@ def deliver(data: Model.MESSAGE):
 def forum_function(data: Model.FORUMS_EVENT):
     if data.t != 'FORUM_THREAD_CREATE':
         return
+    channelName=bot.api.get_guild_info(data.guild_id).data.name
+    if (channelName!=permit_channel):
+        return
     formal_id=getId(data.guild_id,['正式成员'])
+    head=f'<@{data.author_id}>'
+    content='机器人已自动将你在帖子广场的帖删除。由于很多人的举报信息收集表填写不完整，导致互助效率极度低下，故本频道需要通过考核后才能发帖。请先看公告，再来考核区参与考核。'
     #bot.logger.info(data)
     #bot.logger.info(data.thread_info)
-    user=bot.api.get_member_info(data.guild_id,data.author_id)
-    roles=user.data.roles
+    user=bot.api.get_member_info(data.guild_id,data.author_id).data
+    roles=user.roles
+    lst=bot.api.get_guild_channels(data.guild_id).data
+    square_id=getChannelId(lst,'帖子广场') 
+    assessment_id=getChannelId(lst,'AI自动审核区')  
     if formal_id in roles:
-        return
-    bot.logger.info('非正式成员'+user.data.user.username+'发帖')
+        #bot.logger.info(data.channel_id)
+        #bot.logger.info(square_id)
+        if (data.channel_id!=square_id):
+            return
+        #bot.logger.info('正式成员发错地方了')
+        content='机器人已自动将你在帖子广场的帖删除。请在发帖选择 <互助区> 板块 ，不要到帖子广场发帖。'
+        
+    bot.logger.info(user.user.username+'非法发帖')
     bot.api.delete_thread(data.channel_id,data.thread_info.thread_id)
-    bot.logger.info('已清除非法帖子')
-    direct_id=bot.api.create_dm_guild(data.author_id,data.guild_id).data.guild_id
+    #bot.logger.info('已清除非法帖子')
+    #direct_id=bot.api.create_dm_guild(data.author_id,data.guild_id).data.guild_id
     #bot.logger.info(direct_id)
-    content='由于很多人的举报信息收集表填写不完整，导致互助效率极度低下，故本频道需要通过考核后才能发帖。请先看公告，再去考核区参与考核。'
-    bot.api.send_dm(guild_id=direct_id,content=content,message_id=data.thread_info.thread_id)
-    bot.logger.info('已提醒成员先去考核区考核')
+    #bot.api.send_dm(guild_id=direct_id,content=content,message_id=data.thread_info.thread_id)
+    bot.api.send_msg(channel_id=assessment_id,content=head+content,message_id=data.thread_info.thread_id)
+    #bot.logger.info('已提醒成员')
+    smartboy_id=getId(data.guild_id,['违规发帖-详情查看审核区提示'])
+    bot.api.create_role_member(data.author_id,data.guild_id,smartboy_id)
+    bot.api.delete_role_member(data.author_id,data.guild_id,smartboy_id)
+
+
 
 if __name__ == "__main__":
     bot.start()
