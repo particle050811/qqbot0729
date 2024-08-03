@@ -93,7 +93,7 @@ def deliver(data: Model.MESSAGE):
         return
     formal_id=getId(data.guild_id,['正式成员'])
     #bot.logger.info(data.author.username+":"+data.treated_msg)
-    bot.logger.info(data)    
+    #bot.logger.info(data)    
     #bot.logger.info('频道名：'+channelName)
     #bot.logger.info(data.content)
     #bot.logger.info(data.treated_msg)bot.logger.info
