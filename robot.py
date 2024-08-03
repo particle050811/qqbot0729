@@ -100,12 +100,12 @@ def deliver(data: Model.MESSAGE):
     #bot.logger.info('@小灵bot' in data.treated_msg)
     reply=''
     cleaned_msg = re.sub(r'<@!\d+>', '', data.content)
-    #bot.logger.info(len(cleaned_msg))
-    #bot.logger.info('过' in cleaned_msg)
-    #bot.logger.info(cleaned_msg)
+    bot.logger.info(len(cleaned_msg))
+    bot.logger.info('过' in cleaned_msg)
+    bot.logger.info(cleaned_msg)
 
     success='你通过了考核，可以去互助区发帖找人互助了。发完帖后不要等别人找你，主动找别人互助效率更高\n'
-    if (len(cleaned_msg)<2 and '过' in cleaned_msg):
+    if (cleaned_msg==' 过'):
         #bot.logger.info('已经检测到 过 指令')
         lst = bot.api.get_guild_roles(data.guild_id)
         adminIds = [sf.id for sf in lst.data.roles if '管理' in sf.name]
