@@ -61,11 +61,13 @@ def getId(guild_id,name):
         if sf.name in name:
             return sf.id
 
-def getChannelId(lst,name):
+def exist(lst,id,name):
     for channel in lst:
-        if (channel.name==name):
-            return channel.id
+        #bot.logger.info(channel)
+        if (channel.name==name and channel.id==id):
+            return True
     bot.logger.warning('不存在该子频道')
+    return False
 
 def query(msg):
     time1=datetime.now()
@@ -96,19 +98,24 @@ def deliver(data: Model.MESSAGE):
     #bot.logger.info(data)    
     #bot.logger.info('频道名：'+channelName)
     #bot.logger.info(data.content)
-    #bot.logger.info(data.treated_msg)bot.logger.info
+    #bot.logger.info(data.treated_msg)
     #bot.logger.info('@小灵bot' in data.treated_msg)
     reply=''
     cleaned_msg = re.sub(r'<@!\d+>', '', data.content)
-    bot.logger.info(len(cleaned_msg))
-    bot.logger.info('过' in cleaned_msg)
-    bot.logger.info(cleaned_msg)
-
-    success='你通过了考核，可以去互助区发帖找人互助了。发完帖后不要等别人找你，主动找别人互助效率更高\n'
+    #bot.logger.info(len(cleaned_msg))
+    #bot.logger.info('过' in cleaned_msg)
+    #bot.logger.info(cleaned_msg)
+    lst=bot.api.get_guild_channels(data.guild_id).data
+    channel_dict = {channel.name: channel.id for channel in lst}
+    cooperation_id=channel_dict['互助区']
+    instant_id=channel_dict['即时互助区']
+    #data.reply(f'<#{cooperation_id}>')
+    #data.reply(cooperation_id)
+    success=f'你通过了考核，可以去<#{cooperation_id}>发帖找人互助了。发帖时不选择分区会被机器人自动删除。如果找不到人互助，可以去<#{instant_id}>实时找人互助'
     if (cleaned_msg==' 过'):
         #bot.logger.info('已经检测到 过 指令')
-        lst = bot.api.get_guild_roles(data.guild_id)
-        adminIds = [sf.id for sf in lst.data.roles if '管理' in sf.name]
+        role_lst = bot.api.get_guild_roles(data.guild_id)
+        adminIds = [sf.id for sf in role_lst.data.roles if '管理' in sf.name]
         authorIds = data.member.roles
         #bot.logger.info(f'adminIds:{adminIds}')
         #bot.logger.info(f'authorIds:{authorIds}')
@@ -154,15 +161,20 @@ def forum_function(data: Model.FORUMS_EVENT):
     user=bot.api.get_member_info(data.guild_id,data.author_id).data
     roles=user.roles
     lst=bot.api.get_guild_channels(data.guild_id).data
-    square_id=getChannelId(lst,'帖子广场') 
-    assessment_id=getChannelId(lst,'AI自动审核区')  
+    channel_dict = {channel.name: channel.id for channel in lst}
+    assessment_id=channel_dict['AI自动审核区']
+    cooperation_id=channel_dict['互助区']
+    instant_id=channel_dict['即时互助区']
+    #bot.logger.info(lst)
+    #bot.logger.info(channel_dict)
+    #bot.logger.info(formal_id)
+    #bot.logger.info(roles)
     if formal_id in roles:
-        #bot.logger.info(data.channel_id)
-        #bot.logger.info(square_id)
-        if (data.channel_id!=square_id):
+        bot.logger.info(data.channel_id)
+        if (not exist(lst,data.channel_id,'帖子广场')):
             return
         #bot.logger.info('正式成员发错地方了')
-        content='机器人已自动将你在帖子广场的帖删除。请在发帖选择 <互助区> 板块 ，不要到帖子广场发帖。'
+        content=f'机器人已自动将你在帖子广场的帖删除。请在发帖选择<#{cooperation_id}>板块 ，不要到帖子广场发帖。如果需要找人互助，可以去<#{instant_id}>挂着，实时找人互助'
         
     bot.logger.info(user.user.username+'非法发帖')
     bot.api.delete_thread(data.channel_id,data.thread_info.thread_id)
