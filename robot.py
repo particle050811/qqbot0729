@@ -12,7 +12,7 @@ with open('wash.txt', 'r',encoding='utf-8') as file:
     wash=file.read()
 with open('check.txt', 'r',encoding='utf-8') as file:
     check=file.read()
-permit_channel='幽灵的频道'
+permit_channel='中学学习交流频道'
 def deepseek(msg,prompt):
     client = OpenAI(api_key="sk-5939c8ddb4ce4902a97b13e87ad02779", base_url="https://api.deepseek.com")
     response = client.chat.completions.create(
