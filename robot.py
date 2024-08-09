@@ -12,11 +12,12 @@ with open('wash.txt', 'r',encoding='utf-8') as file:
     wash=file.read()
 with open('check.txt', 'r',encoding='utf-8') as file:
     check=file.read()
-permit_channel='中学学习交流频道'
+permit_channel='幽灵的频道'
 def deepseek(msg,prompt):
     client = OpenAI(api_key="sk-5939c8ddb4ce4902a97b13e87ad02779", base_url="https://api.deepseek.com")
     response = client.chat.completions.create(
         model="deepseek-chat",
+        temperature=0.7,
         messages=[
             {
                 "role":"system",
@@ -80,8 +81,7 @@ def query(msg):
     #bot.logger.info('###reply2\n'+reply2+'\n###reply2\n')
     reply=translate(reply2)
     time2=datetime.now()
-    bot.logger.info('AI共花费了：')
-    bot.logger.info(time2 - time1)
+    bot.logger.info('AI共花费了：' + str(time2 - time1))
     return reply
 
 
@@ -136,16 +136,15 @@ def deliver(data: Model.MESSAGE):
     if ('mentions' in data.__dict__ and is_at(data.mentions)) or '@小灵bot' in data.treated_msg:
         #bot.logger.info('机器人准备回复了')
         head='<@'+data.author.id+'>'+'\n'
-        data.reply(head+'机器人正在审核中,预计15s后会回复',message_reference_id=data.id)
+        data.reply(head+'小灵bot正在审核中,预计15s后会回复',message_reference_id=data.id)
         reply=query(data.treated_msg)
         if reply=='':
-            bot.logger.info(data.author.username+' 成功通过考核')
+            bot.logger.info(f' {data.author.username} 成功通过考核')
             bot.api.create_role_member(data.author.id,data.guild_id,formal_id)
             reply+=success
         data.reply(head+reply,message_reference_id=data.id) 
     time2=datetime.now()   
-    bot.logger.info('回复消息共花费了：')
-    bot.logger.info(time2 - time1)
+    bot.logger.info('回复消息共花费了：' + str(time2 - time1))
 @bot.bind_forum()
 def forum_function(data: Model.FORUMS_EVENT):
     if data.t != 'FORUM_THREAD_CREATE':
