@@ -222,7 +222,7 @@ def forum_function(data: Model.FORUMS_EVENT):
 @bot.register_start_event()
 def init():
     global deepseek; deepseek = AI('deepseek')
-    global guild; guild = Guild(is_test=True)
+    global guild; guild = Guild(is_test=False)
     global bot_id; bot_id=bot.api.get_bot_info().data.id
 
 if __name__ == "__main__":
