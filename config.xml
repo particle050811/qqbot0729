@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <bot>
+        <id>102070552</id>
+        <token>qHAvc3v8Me2XvIdspk4MgWPcEcAsN2A3</token>
+    </bot>
+    <deepseek>
+        <model>deepseek-chat</model>
+        <api_key>sk-5939c8ddb4ce4902a97b13e87ad02779</api_key>
+        <base_url>https://api.deepseek.com</base_url>
+    </deepseek>
+    <guild_name>
+        <test>幽灵的频道</test>
+        <formal>中学学习交流频道</formal>
+    </guild_name>
+</configuration>

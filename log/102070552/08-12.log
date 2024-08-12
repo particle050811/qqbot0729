@@ -1,0 +1,1373 @@
+[08-12 10:16:36] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:16:36] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:17:16] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:17:16] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:19:14] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:20:17] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:20:37] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:20:37] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:20:58] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:20:58] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:21:14] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:21:14] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:22:35] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:22:35] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:22:35] [WARNING] 当前未订阅任何事件，将无法接收任何消息，只能使用主动消息功能
+[08-12 10:22:35] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:23:57] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:23:58] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:23:58] [WARNING] 当前未订阅任何事件，将无法接收任何消息，只能使用主动消息功能
+[08-12 10:24:03] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:25:22] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:25:22] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:25:22] [WARNING] 当前未订阅任何事件，将无法接收任何消息，只能使用主动消息功能
+[08-12 10:26:09] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:26:09] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:26:09] [INFO] 论坛事件订阅成功
+[08-12 10:26:10] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:26:15] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:26:58] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:26:58] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:26:58] [INFO] 论坛事件订阅成功
+[08-12 10:26:58] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:26:58] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:30:41] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:30:41] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:30:41] [INFO] 论坛事件订阅成功
+[08-12 10:30:42] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:30:42] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:37:15] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:37:15] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:37:15] [INFO] 论坛事件订阅成功
+[08-12 10:37:15] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:37:15] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:37:19] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:37:19] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:37:19] [INFO] 论坛事件订阅成功
+[08-12 10:37:19] [INFO] 初始事件注册成功
+[08-12 10:37:20] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:37:20] [INFO] 连接成功，机器人开始运行
+[08-12 10:37:20] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 10:37:20] [WARNING] HTTP API(url:https://api.sgroup.qq.com/guilds/4291723491/channels)调用错误[400]，详情：{"message":"频道末对机器人末授权","code":11264,"err_code":40012009,"trace_id":"19ffae5f11eec8dd3093eb6cc5b0e2c8"}，trace_id：19ffae5f11eec8dd3093eb6cc5b0e2c8
+[08-12 10:37:21] [WARNING] HTTP API(url:https://api.sgroup.qq.com/guilds/4291723491/roles)调用错误[400]，详情：{"message":"频道末对机器人末授权","code":11264,"err_code":40012009,"trace_id":"b6829fe031c8f2f5ef214b9fe59241d7"}，trace_id：b6829fe031c8f2f5ef214b9fe59241d7
+[08-12 10:37:21] [ERROR] AttributeError("'object_class' object has no attribute 'roles'")
+[08-12 10:37:21] [ERROR] [error:AttributeError("'object_class' object has no attribute 'roles'")] File "d:\code\qqbot0729\robot.py", line 47, in __init__
+[08-12 10:38:02] [DEBUG] 心跳发送成功
+[08-12 10:38:18] [ERROR] NameError("name 'guild' is not defined")
+[08-12 10:38:18] [ERROR] NameError("name 'guild' is not defined")
+[08-12 10:38:18] [ERROR] [error:NameError("name 'guild' is not defined")] File "d:\code\qqbot0729\robot.py", line 190, in forum_function
+[08-12 10:38:18] [ERROR] [error:NameError("name 'guild' is not defined")] File "d:\code\qqbot0729\robot.py", line 176, in deliver
+[08-12 10:38:40] [ERROR] NameError("name 'guild' is not defined")
+[08-12 10:38:40] [ERROR] [error:NameError("name 'guild' is not defined")] File "d:\code\qqbot0729\robot.py", line 176, in deliver
+[08-12 10:38:43] [DEBUG] 心跳发送成功
+[08-12 10:42:54] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:42:54] [INFO] Session Manager结束中，正在保存数据...
+[08-12 10:43:24] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:43:24] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:43:24] [INFO] 论坛事件订阅成功
+[08-12 10:43:24] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:43:25] [INFO] 连接成功，机器人开始运行
+[08-12 10:43:25] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 10:43:33] [ERROR] TypeError("'Logger' object is not callable")
+[08-12 10:43:33] [ERROR] [error:TypeError("'Logger' object is not callable")] File "d:\code\qqbot0729\robot_old.py", line 94, in deliver
+[08-12 10:43:56] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:43:56] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:43:56] [INFO] 论坛事件订阅成功
+[08-12 10:43:56] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:43:57] [INFO] 连接成功，机器人开始运行
+[08-12 10:43:57] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 10:43:59] [INFO] 803215361374150329
+[08-12 10:43:59] [INFO] 回复消息共花费了：0:00:00.634066
+[08-12 10:44:38] [DEBUG] 心跳发送成功
+[08-12 10:45:19] [DEBUG] 心跳发送成功
+[08-12 10:46:00] [DEBUG] 心跳发送成功
+[08-12 10:46:42] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 10:46:42] [INFO] 重连成功，机器人继续运行
+[08-12 10:47:24] [DEBUG] 心跳发送成功
+[08-12 10:57:39] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 10:57:39] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 10:57:39] [INFO] 论坛事件订阅成功
+[08-12 10:57:39] [INFO] 初始事件注册成功
+[08-12 10:57:39] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 10:57:40] [INFO] 连接成功，机器人开始运行
+[08-12 10:57:40] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:14:05] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:14:05] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:14:05] [INFO] 论坛事件订阅成功
+[08-12 15:14:05] [INFO] 初始事件注册成功
+[08-12 15:14:06] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:14:07] [INFO] 连接成功，机器人开始运行
+[08-12 15:14:07] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:14:14] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:14:14] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 67, in set
+[08-12 15:14:49] [DEBUG] 心跳发送成功
+[08-12 15:15:19] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:15:19] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:15:19] [INFO] 论坛事件订阅成功
+[08-12 15:15:19] [INFO] 初始事件注册成功
+[08-12 15:15:19] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:15:20] [INFO] 连接成功，机器人开始运行
+[08-12 15:15:20] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:15:23] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:15:23] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 67, in set
+[08-12 15:15:45] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:15:45] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:15:45] [INFO] 论坛事件订阅成功
+[08-12 15:15:45] [INFO] 初始事件注册成功
+[08-12 15:15:46] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:15:46] [INFO] 连接成功，机器人开始运行
+[08-12 15:15:46] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:16:28] [DEBUG] 心跳发送成功
+[08-12 15:17:08] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:17:08] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:17:08] [INFO] 论坛事件订阅成功
+[08-12 15:17:08] [INFO] 初始事件注册成功
+[08-12 15:17:09] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:17:09] [INFO] 连接成功，机器人开始运行
+[08-12 15:17:10] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:17:14] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:17:14] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 67, in set
+[08-12 15:17:21] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:17:21] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:17:21] [INFO] 论坛事件订阅成功
+[08-12 15:17:21] [INFO] 初始事件注册成功
+[08-12 15:17:21] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:17:22] [INFO] 连接成功，机器人开始运行
+[08-12 15:17:22] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:17:24] [INFO] {'日程子频道': '657815628', '互助区': '657944006', 'AI自动审核区': '657968187', '即时互助区': '658027966', '帖子广场': '640400897', '话题区': '640400893', '聊天室': '640400894', '直播间': '640400895', '讨论组': '642480557', '直播': '642480559', '日程': '657815629', '': '642480555'}
+[08-12 15:17:24] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:17:24] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 68, in set
+[08-12 15:18:03] [DEBUG] 心跳发送成功
+[08-12 15:18:37] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:18:37] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:18:37] [INFO] 论坛事件订阅成功
+[08-12 15:18:37] [INFO] 初始事件注册成功
+[08-12 15:18:38] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:18:38] [INFO] 连接成功，机器人开始运行
+[08-12 15:18:38] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:18:39] [INFO] {'直播间': '640400895', '互助区': '657944006', 'AI自动审核区': '657968187', '即时互助区': '658027966', '话题区': '640400893', '聊天室': '640400894', '日程子频道': '657815628', '帖子广场': '640400897', '讨论组': '642480557', '直播': '642480559', '日程': '657815629', '': '642480555'}
+[08-12 15:18:39] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:18:39] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 68, in set
+[08-12 15:19:09] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:19:09] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:19:09] [INFO] 论坛事件订阅成功
+[08-12 15:19:09] [INFO] 初始事件注册成功
+[08-12 15:19:09] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:19:10] [INFO] 连接成功，机器人开始运行
+[08-12 15:19:10] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:19:13] [INFO] {'话题区': '640400893', '聊天室': '640400894', 'AI自动审核区': '657968187', '即时互助区': '658027966', '帖子广场': '640400897', '直播间': '640400895', '日程子频道': '657815628', '互助区': '657944006', '讨论组': '642480557', '直播': '642480559', '日程': '657815629', '': '642480555'}
+[08-12 15:19:13] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:19:13] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 68, in set
+[08-12 15:19:43] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:19:43] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:19:43] [INFO] 论坛事件订阅成功
+[08-12 15:19:43] [INFO] 初始事件注册成功
+[08-12 15:19:44] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:19:44] [INFO] 连接成功，机器人开始运行
+[08-12 15:19:44] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:19:47] [INFO] {'直播间': '640400895', '日程子频道': '657815628', '互助区': '657944006', '帖子广场': '640400897', '话题区': '640400893', '聊天室': '640400894', 'AI自动审核区': '657968187', '即时互助区': '658027966', '讨论组': '642480557', '直播': '642480559', '日程': '657815629', '': '642480555'}
+[08-12 15:19:47] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:19:47] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 68, in set
+[08-12 15:20:26] [DEBUG] 心跳发送成功
+[08-12 15:21:08] [DEBUG] 心跳发送成功
+[08-12 15:21:48] [DEBUG] 心跳发送成功
+[08-12 15:22:29] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:22:29] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:22:29] [INFO] 论坛事件订阅成功
+[08-12 15:22:29] [INFO] 初始事件注册成功
+[08-12 15:22:30] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:22:31] [INFO] 连接成功，机器人开始运行
+[08-12 15:22:31] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:22:36] [INFO] {'聊天室': '640400894', '互助区': '657944006', '即时互助区': '658027966', '日程子频道': '657815628', 'AI自动审核区': '657968187', '帖子广场': '640400897', '话题区': '640400893', '直播间': '640400895', '讨论组': '642480557', '直播': '642480559', '日程': '657815629', '': '642480555'}
+[08-12 15:22:36] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:22:36] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 68, in set
+[08-12 15:23:35] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:23:35] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:23:35] [INFO] 论坛事件订阅成功
+[08-12 15:23:35] [INFO] 初始事件注册成功
+[08-12 15:23:35] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:23:36] [INFO] 连接成功，机器人开始运行
+[08-12 15:23:36] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:23:42] [INFO] {'互助区': '657944006', '直播间': '640400895', '日程子频道': '657815628', 'AI自动审核区': '657968187', '即时互助区': '658027966', '帖子广场': '640400897', '话题区': '640400893', '聊天室': '640400894', '讨论组': '642480557', '直播': '642480559', '日程': '657815629', '': '642480555'}
+[08-12 15:23:42] [ERROR] KeyError('违规发帖-详情查看审核区提示')
+[08-12 15:23:42] [ERROR] [error:KeyError('违规发帖-详情查看审核区提示')] File "d:\code\qqbot0729\robot.py", line 68, in set
+[08-12 15:23:51] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:23:51] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:23:51] [INFO] 论坛事件订阅成功
+[08-12 15:23:51] [INFO] 初始事件注册成功
+[08-12 15:23:51] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:23:52] [INFO] 连接成功，机器人开始运行
+[08-12 15:23:52] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:24:33] [DEBUG] 心跳发送成功
+[08-12 15:25:14] [DEBUG] 心跳发送成功
+[08-12 15:25:55] [DEBUG] 心跳发送成功
+[08-12 15:26:37] [DEBUG] 心跳发送成功
+[08-12 15:27:18] [DEBUG] 心跳发送成功
+[08-12 15:27:59] [DEBUG] 心跳发送成功
+[08-12 15:28:16] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:28:16] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:28:16] [INFO] 论坛事件订阅成功
+[08-12 15:28:16] [INFO] 初始事件注册成功
+[08-12 15:28:16] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:28:16] [INFO] 连接成功，机器人开始运行
+[08-12 15:28:17] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:28:24] [ERROR] NameError("name 'guild' is not defined")
+[08-12 15:28:24] [ERROR] [error:NameError("name 'guild' is not defined")] File "d:\code\qqbot0729\robot.py", line 188, in deliver
+[08-12 15:28:46] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:28:46] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:28:46] [INFO] 论坛事件订阅成功
+[08-12 15:28:46] [INFO] 初始事件注册成功
+[08-12 15:28:46] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:28:53] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:28:53] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:28:53] [INFO] 论坛事件订阅成功
+[08-12 15:28:53] [INFO] 初始事件注册成功
+[08-12 15:28:54] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:28:54] [INFO] 连接成功，机器人开始运行
+[08-12 15:28:55] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:29:02] [ERROR] NameError("name 'guild' is not defined")
+[08-12 15:29:02] [ERROR] [error:NameError("name 'guild' is not defined")] File "d:\code\qqbot0729\robot.py", line 188, in deliver
+[08-12 15:29:31] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:29:31] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:29:31] [INFO] 论坛事件订阅成功
+[08-12 15:29:31] [INFO] 初始事件注册成功
+[08-12 15:29:31] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:29:32] [INFO] 连接成功，机器人开始运行
+[08-12 15:29:32] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:30:13] [DEBUG] 心跳发送成功
+[08-12 15:30:37] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:30:37] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:30:37] [INFO] 论坛事件订阅成功
+[08-12 15:30:37] [INFO] 初始事件注册成功
+[08-12 15:30:37] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:30:38] [INFO] 连接成功，机器人开始运行
+[08-12 15:30:38] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:31:54] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:31:54] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:31:54] [INFO] 论坛事件订阅成功
+[08-12 15:31:54] [INFO] 初始事件注册成功
+[08-12 15:31:55] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:31:57] [INFO] 连接成功，机器人开始运行
+[08-12 15:31:57] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:32:11] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:32:11] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:32:11] [INFO] 论坛事件订阅成功
+[08-12 15:32:11] [INFO] 初始事件注册成功
+[08-12 15:33:32] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:33:32] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:33:32] [INFO] 论坛事件订阅成功
+[08-12 15:33:32] [INFO] 初始事件注册成功
+[08-12 15:33:33] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:33:33] [INFO] 连接成功，机器人开始运行
+[08-12 15:33:33] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:33:36] [INFO] permitted channel
+[08-12 15:34:15] [DEBUG] 心跳发送成功
+[08-12 15:34:40] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:34:40] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:34:40] [INFO] 论坛事件订阅成功
+[08-12 15:34:40] [INFO] 初始事件注册成功
+[08-12 15:34:41] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:34:41] [INFO] 连接成功，机器人开始运行
+[08-12 15:34:41] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:34:49] [INFO] permitted channel
+[08-12 15:35:23] [DEBUG] 心跳发送成功
+[08-12 15:35:47] [INFO] permitted channel
+[08-12 15:35:51] [INFO] permitted channel
+[08-12 15:36:05] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:36:05] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:36:05] [INFO] 论坛事件订阅成功
+[08-12 15:36:05] [INFO] 初始事件注册成功
+[08-12 15:36:05] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:36:06] [INFO] 连接成功，机器人开始运行
+[08-12 15:36:06] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:36:10] [ERROR] NameError("name 'guild' is not defined")
+[08-12 15:36:10] [ERROR] [error:NameError("name 'guild' is not defined")] File "d:\code\qqbot0729\robot.py", line 191, in deliver
+[08-12 15:36:33] [INFO] permitted channel
+[08-12 15:36:47] [DEBUG] 心跳发送成功
+[08-12 15:37:05] [INFO] permitted channel
+[08-12 15:37:29] [DEBUG] 心跳发送成功
+[08-12 15:37:35] [INFO] permitted channel
+[08-12 15:37:43] [INFO] permitted channel
+[08-12 15:37:52] [INFO] permitted channel
+[08-12 15:38:10] [DEBUG] 心跳发送成功
+[08-12 15:38:11] [INFO] permitted channel
+[08-12 15:38:28] [INFO] permitted channel
+[08-12 15:38:38] [INFO] permitted channel
+[08-12 15:38:48] [INFO] permitted channel
+[08-12 15:38:51] [DEBUG] 心跳发送成功
+[08-12 15:39:32] [DEBUG] 心跳发送成功
+[08-12 15:40:13] [DEBUG] 心跳发送成功
+[08-12 15:45:43] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:45:43] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:45:43] [INFO] 论坛事件订阅成功
+[08-12 15:45:43] [INFO] 初始事件注册成功
+[08-12 15:45:44] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:45:44] [INFO] 连接成功，机器人开始运行
+[08-12 15:45:44] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:45:46] [INFO] permitted channel
+[08-12 15:45:46] [INFO] genshin
+[08-12 15:45:46] [INFO] set
+[08-12 15:45:46] [INFO] check
+[08-12 15:45:52] [ERROR] TypeError("set_formal() missing 1 required positional argument: 'id'")
+[08-12 15:45:52] [ERROR] [error:TypeError("set_formal() missing 1 required positional argument: 'id'")] File "d:\code\qqbot0729\robot.py", line 140, in check
+[08-12 15:46:26] [DEBUG] 心跳发送成功
+[08-12 15:47:07] [DEBUG] 心跳发送成功
+[08-12 15:47:49] [DEBUG] 心跳发送成功
+[08-12 15:48:03] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:48:03] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:48:03] [INFO] 论坛事件订阅成功
+[08-12 15:48:03] [INFO] 初始事件注册成功
+[08-12 15:48:03] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:48:04] [INFO] 连接成功，机器人开始运行
+[08-12 15:48:04] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:48:08] [INFO] permitted channel
+[08-12 15:48:08] [INFO] genshin
+[08-12 15:48:08] [INFO] set
+[08-12 15:48:08] [INFO] check
+[08-12 15:48:45] [DEBUG] 心跳发送成功
+[08-12 15:49:17] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:49:17] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:49:17] [INFO] 论坛事件订阅成功
+[08-12 15:49:17] [INFO] 初始事件注册成功
+[08-12 15:49:17] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:49:18] [INFO] 连接成功，机器人开始运行
+[08-12 15:49:18] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:49:21] [INFO] permitted channel
+[08-12 15:49:21] [INFO] genshin
+[08-12 15:49:21] [INFO] set
+[08-12 15:49:21] [INFO] check
+[08-12 15:49:22] [ERROR] KeyError('委托表')
+[08-12 15:49:22] [ERROR] [error:KeyError('委托表')] File "d:\code\qqbot0729\robot.py", line 126, in ask_ai
+[08-12 15:49:28] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:49:28] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:49:28] [INFO] 论坛事件订阅成功
+[08-12 15:49:28] [INFO] 初始事件注册成功
+[08-12 15:49:28] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:49:29] [INFO] 连接成功，机器人开始运行
+[08-12 15:49:29] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:49:38] [ERROR] UnboundLocalError("local variable 'members' referenced before assignment")
+[08-12 15:49:38] [ERROR] [error:UnboundLocalError("local variable 'members' referenced before assignment")] File "d:\code\qqbot0729\robot.py", line 119, in set
+[08-12 15:50:10] [DEBUG] 心跳发送成功
+[08-12 15:50:51] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:50:51] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:50:51] [INFO] 论坛事件订阅成功
+[08-12 15:50:51] [INFO] 初始事件注册成功
+[08-12 15:50:52] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:50:53] [INFO] 连接成功，机器人开始运行
+[08-12 15:50:53] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:51:34] [DEBUG] 心跳发送成功
+[08-12 15:52:15] [DEBUG] 心跳发送成功
+[08-12 15:52:57] [DEBUG] 心跳发送成功
+[08-12 15:53:38] [DEBUG] 心跳发送成功
+[08-12 15:53:56] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:53:56] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:53:56] [INFO] 论坛事件订阅成功
+[08-12 15:53:56] [INFO] 初始事件注册成功
+[08-12 15:53:56] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:53:57] [INFO] 连接成功，机器人开始运行
+[08-12 15:53:57] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:54:38] [DEBUG] 心跳发送成功
+[08-12 15:55:20] [DEBUG] 心跳发送成功
+[08-12 15:56:01] [DEBUG] 心跳发送成功
+[08-12 15:56:41] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 15:56:41] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 15:56:41] [INFO] 论坛事件订阅成功
+[08-12 15:56:41] [INFO] 初始事件注册成功
+[08-12 15:56:42] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 15:56:42] [INFO] 连接成功，机器人开始运行
+[08-12 15:56:43] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 15:57:24] [DEBUG] 心跳发送成功
+[08-12 15:58:05] [DEBUG] 心跳发送成功
+[08-12 15:58:46] [DEBUG] 心跳发送成功
+[08-12 15:59:28] [DEBUG] 心跳发送成功
+[08-12 16:05:49] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:05:49] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:05:49] [INFO] 论坛事件订阅成功
+[08-12 16:05:49] [INFO] 初始事件注册成功
+[08-12 16:05:50] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:05:50] [INFO] 连接成功，机器人开始运行
+[08-12 16:05:50] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:06:32] [DEBUG] 心跳发送成功
+[08-12 16:07:08] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:07:08] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:07:08] [INFO] 论坛事件订阅成功
+[08-12 16:07:08] [INFO] 初始事件注册成功
+[08-12 16:07:08] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:07:09] [INFO] 连接成功，机器人开始运行
+[08-12 16:07:09] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:07:50] [DEBUG] 心跳发送成功
+[08-12 16:08:31] [DEBUG] 心跳发送成功
+[08-12 16:09:13] [DEBUG] 心跳发送成功
+[08-12 16:09:23] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:09:23] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:09:23] [INFO] 论坛事件订阅成功
+[08-12 16:09:23] [INFO] 初始事件注册成功
+[08-12 16:09:23] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:09:24] [INFO] 连接成功，机器人开始运行
+[08-12 16:09:24] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:09:27] [ERROR] AttributeError("'Guild' object has no attribute 'cooperation_id'")
+[08-12 16:09:27] [ERROR] [error:AttributeError("'Guild' object has no attribute 'cooperation_id'")] File "d:\code\qqbot0729\robot.py", line 85, in __init__
+[08-12 16:09:28] [ERROR] AttributeError("'str' object has no attribute 'name'")
+[08-12 16:09:28] [ERROR] [error:AttributeError("'str' object has no attribute 'name'")] File "d:\code\qqbot0729\robot.py", line 161, in is_legal
+[08-12 16:10:05] [DEBUG] 心跳发送成功
+[08-12 16:13:26] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:13:26] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:13:26] [INFO] 论坛事件订阅成功
+[08-12 16:13:26] [INFO] 初始事件注册成功
+[08-12 16:13:26] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:13:27] [INFO] 连接成功，机器人开始运行
+[08-12 16:13:27] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:14:08] [DEBUG] 心跳发送成功
+[08-12 16:14:17] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:14:17] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:14:17] [INFO] 论坛事件订阅成功
+[08-12 16:14:17] [INFO] 初始事件注册成功
+[08-12 16:14:17] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:14:18] [INFO] 连接成功，机器人开始运行
+[08-12 16:14:18] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:14:53] [ERROR] AttributeError("'str' object has no attribute 'name'")
+[08-12 16:14:53] [ERROR] [error:AttributeError("'str' object has no attribute 'name'")] File "d:\code\qqbot0729\robot.py", line 160, in is_legal
+[08-12 16:14:59] [DEBUG] 心跳发送成功
+[08-12 16:15:40] [DEBUG] 心跳发送成功
+[08-12 16:22:38] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:22:38] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:22:38] [INFO] 论坛事件订阅成功
+[08-12 16:22:38] [INFO] 初始事件注册成功
+[08-12 16:22:39] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:22:39] [INFO] 连接成功，机器人开始运行
+[08-12 16:22:39] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:23:09] [ERROR] ValueError('too many values to unpack (expected 2)')
+[08-12 16:23:09] [ERROR] [error:ValueError('too many values to unpack (expected 2)')] File "d:\code\qqbot0729\robot.py", line 159, in is_legal
+[08-12 16:23:20] [DEBUG] 心跳发送成功
+[08-12 16:24:02] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:24:02] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:24:02] [INFO] 论坛事件订阅成功
+[08-12 16:24:02] [INFO] 初始事件注册成功
+[08-12 16:24:02] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:24:03] [INFO] 连接成功，机器人开始运行
+[08-12 16:24:03] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:24:38] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:24:38] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:24:38] [INFO] 论坛事件订阅成功
+[08-12 16:24:38] [INFO] 初始事件注册成功
+[08-12 16:24:38] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:24:39] [INFO] 连接成功，机器人开始运行
+[08-12 16:24:39] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:24:45] [DEBUG] 心跳发送成功
+[08-12 16:25:20] [DEBUG] 心跳发送成功
+[08-12 16:25:26] [DEBUG] 心跳发送成功
+[08-12 16:25:55] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:25:55] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:25:55] [INFO] 论坛事件订阅成功
+[08-12 16:25:55] [INFO] 初始事件注册成功
+[08-12 16:25:56] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:25:56] [INFO] 连接成功，机器人开始运行
+[08-12 16:25:56] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:26:07] [DEBUG] 心跳发送成功
+[08-12 16:26:37] [DEBUG] 心跳发送成功
+[08-12 16:26:48] [DEBUG] 心跳发送成功
+[08-12 16:27:19] [DEBUG] 心跳发送成功
+[08-12 16:27:30] [DEBUG] 心跳发送成功
+[08-12 16:28:00] [DEBUG] 心跳发送成功
+[08-12 16:28:11] [DEBUG] 心跳发送成功
+[08-12 16:28:43] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:28:43] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:28:43] [INFO] 论坛事件订阅成功
+[08-12 16:28:43] [INFO] 初始事件注册成功
+[08-12 16:28:43] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:28:44] [INFO] 连接成功，机器人开始运行
+[08-12 16:28:44] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:28:52] [DEBUG] 心跳发送成功
+[08-12 16:29:10] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/803215361374150329/threads/B_bcc7b96651410d001441152189347118930X60)调用错误[400]，详情：{"message":"频道不存在","code":11263,"err_code":40022001,"trace_id":"001fd6e39140b8dba3a915bc43d3b6ba"}，trace_id：001fd6e39140b8dba3a915bc43d3b6ba
+[08-12 16:29:25] [DEBUG] 心跳发送成功
+[08-12 16:29:33] [DEBUG] 心跳发送成功
+[08-12 16:30:06] [DEBUG] 心跳发送成功
+[08-12 16:30:15] [DEBUG] 心跳发送成功
+[08-12 16:30:47] [DEBUG] 心跳发送成功
+[08-12 16:30:56] [DEBUG] 心跳发送成功
+[08-12 16:31:29] [DEBUG] 心跳发送成功
+[08-12 16:31:37] [DEBUG] 心跳发送成功
+[08-12 16:31:56] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:31:56] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:31:56] [INFO] 论坛事件订阅成功
+[08-12 16:31:56] [INFO] 初始事件注册成功
+[08-12 16:31:56] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:31:57] [INFO] 连接成功，机器人开始运行
+[08-12 16:31:57] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:32:18] [DEBUG] 心跳发送成功
+[08-12 16:32:19] [ERROR] AttributeError("'Forumer' object has no attribute 'guild_id'")
+[08-12 16:32:19] [ERROR] [error:AttributeError("'Forumer' object has no attribute 'guild_id'")] File "D:\code\qqbot0729\robot.py", line 168, in remind
+[08-12 16:32:38] [DEBUG] 心跳发送成功
+[08-12 16:33:00] [DEBUG] 心跳发送成功
+[08-12 16:33:41] [DEBUG] 心跳发送成功
+[08-12 16:33:47] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:33:47] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:33:47] [INFO] 论坛事件订阅成功
+[08-12 16:33:47] [INFO] 初始事件注册成功
+[08-12 16:33:47] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:33:47] [INFO] 连接成功，机器人开始运行
+[08-12 16:33:48] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:34:22] [DEBUG] 心跳发送成功
+[08-12 16:34:29] [DEBUG] 心跳发送成功
+[08-12 16:35:03] [DEBUG] 心跳发送成功
+[08-12 16:35:10] [DEBUG] 心跳发送成功
+[08-12 16:35:45] [DEBUG] 心跳发送成功
+[08-12 16:36:26] [DEBUG] 心跳发送成功
+[08-12 16:36:32] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:36:32] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:36:32] [INFO] 论坛事件订阅成功
+[08-12 16:36:32] [INFO] 初始事件注册成功
+[08-12 16:36:33] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:36:33] [INFO] 连接成功，机器人开始运行
+[08-12 16:36:33] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:37:14] [DEBUG] 心跳发送成功
+[08-12 16:37:23] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:37:23] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:37:23] [INFO] 论坛事件订阅成功
+[08-12 16:37:23] [INFO] 初始事件注册成功
+[08-12 16:37:23] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:37:23] [INFO] 连接成功，机器人开始运行
+[08-12 16:37:23] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:38:05] [DEBUG] 心跳发送成功
+[08-12 16:38:46] [DEBUG] 心跳发送成功
+[08-12 16:39:27] [DEBUG] 心跳发送成功
+[08-12 16:40:08] [DEBUG] 心跳发送成功
+[08-12 16:40:50] [DEBUG] 心跳发送成功
+[08-12 16:41:31] [DEBUG] 心跳发送成功
+[08-12 16:42:12] [DEBUG] 心跳发送成功
+[08-12 16:42:53] [DEBUG] 心跳发送成功
+[08-12 16:43:35] [DEBUG] 心跳发送成功
+[08-12 16:44:02] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 16:44:02] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 16:44:02] [INFO] 论坛事件订阅成功
+[08-12 16:44:02] [INFO] 初始事件注册成功
+[08-12 16:44:03] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 16:44:03] [INFO] 连接成功，机器人开始运行
+[08-12 16:44:03] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 16:44:44] [DEBUG] 心跳发送成功
+[08-12 16:45:26] [DEBUG] 心跳发送成功
+[08-12 16:46:07] [DEBUG] 心跳发送成功
+[08-12 16:46:48] [DEBUG] 心跳发送成功
+[08-12 16:47:29] [DEBUG] 心跳发送成功
+[08-12 16:48:11] [DEBUG] 心跳发送成功
+[08-12 16:48:52] [DEBUG] 心跳发送成功
+[08-12 16:49:34] [DEBUG] 心跳发送成功
+[08-12 16:50:15] [DEBUG] 心跳发送成功
+[08-12 16:50:56] [DEBUG] 心跳发送成功
+[08-12 16:51:37] [DEBUG] 心跳发送成功
+[08-12 16:52:18] [DEBUG] 心跳发送成功
+[08-12 16:52:59] [DEBUG] 心跳发送成功
+[08-12 16:53:41] [DEBUG] 心跳发送成功
+[08-12 16:54:22] [DEBUG] 心跳发送成功
+[08-12 16:55:03] [DEBUG] 心跳发送成功
+[08-12 16:56:04] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 16:56:04] [INFO] 重连成功，机器人继续运行
+[08-12 16:56:45] [DEBUG] 心跳发送成功
+[08-12 16:57:27] [DEBUG] 心跳发送成功
+[08-12 16:58:08] [DEBUG] 心跳发送成功
+[08-12 16:58:49] [DEBUG] 心跳发送成功
+[08-12 16:59:30] [DEBUG] 心跳发送成功
+[08-12 17:00:12] [DEBUG] 心跳发送成功
+[08-12 17:00:53] [DEBUG] 心跳发送成功
+[08-12 17:01:34] [DEBUG] 心跳发送成功
+[08-12 17:02:35] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 17:02:38] [INFO] 重连成功，机器人继续运行
+[08-12 17:03:19] [DEBUG] 心跳发送成功
+[08-12 19:06:50] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 19:06:53] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 19:06:53] [ERROR] ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x00000243F0D2D4C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11001, 'getaddrinfo failed'))
+[08-12 19:06:53] [ERROR] [error:ClientConnectorError(ConnectionKey(host='api.sgroup.qq.com', port=443, is_ssl=True, ssl=<ssl.SSLContext object at 0x00000243F0D2D4C0>, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11001, 'getaddrinfo failed'))] File "C:\Users\particle\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1187, in _create_direct_connection
+[08-12 19:06:56] [INFO] 重连成功，机器人继续运行
+[08-12 20:55:07] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 20:55:07] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 20:55:07] [INFO] 论坛事件订阅成功
+[08-12 20:55:07] [INFO] 初始事件注册成功
+[08-12 20:55:09] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 20:55:11] [INFO] 连接成功，机器人开始运行
+[08-12 20:55:11] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 20:55:54] [DEBUG] 心跳发送成功
+[08-12 20:56:34] [DEBUG] 心跳发送成功
+[08-12 20:57:15] [DEBUG] 心跳发送成功
+[08-12 20:57:56] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 20:57:58] [INFO] 重连成功，机器人继续运行
+[08-12 20:58:39] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 20:58:39] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 20:58:39] [INFO] 论坛事件订阅成功
+[08-12 20:58:39] [INFO] 初始事件注册成功
+[08-12 20:58:41] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 20:58:43] [INFO] 连接成功，机器人开始运行
+[08-12 20:58:43] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 20:58:57] [ERROR] AttributeError("'object_class' object has no attribute 'username'")
+[08-12 20:58:57] [ERROR] [error:AttributeError("'object_class' object has no attribute 'username'")] File "d:\code\qqbot0729\robot.py", line 175, in check
+[08-12 20:59:25] [DEBUG] 心跳发送成功
+[08-12 20:59:50] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 20:59:50] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 20:59:50] [INFO] 论坛事件订阅成功
+[08-12 20:59:50] [INFO] 初始事件注册成功
+[08-12 20:59:51] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 20:59:52] [INFO] 连接成功，机器人开始运行
+[08-12 20:59:52] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 20:59:58] [ERROR] AttributeError("'object_class' object has no attribute 'username'")
+[08-12 20:59:58] [ERROR] [error:AttributeError("'object_class' object has no attribute 'username'")] File "d:\code\qqbot0729\robot.py", line 175, in check
+[08-12 21:00:03] [WARNING] HTTP API(url:https://api.sgroup.qq.com/channels/640400892/threads/B_4907ba6606a606001441152192082765750X60)调用错误[500]，详情：{"code":503013,"message":"服务器内部错误"}，trace_id：61005078f8827ea0e75c3ffe6373470a
+[08-12 21:00:36] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 21:00:37] [INFO] 重连成功，机器人继续运行
+[08-12 21:00:39] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 21:00:41] [WARNING] BOT_WS链接已断开，正在尝试重连……
+[08-12 21:00:46] [INFO] 重连成功，机器人继续运行
+[08-12 21:01:18] [DEBUG] 心跳发送成功
+[08-12 21:01:27] [DEBUG] 心跳发送成功
+[08-12 21:02:00] [DEBUG] 心跳发送成功
+[08-12 21:02:09] [DEBUG] 心跳发送成功
+[08-12 21:02:39] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:02:39] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:02:39] [INFO] 论坛事件订阅成功
+[08-12 21:02:39] [INFO] 初始事件注册成功
+[08-12 21:02:40] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:02:40] [INFO] 连接成功，机器人开始运行
+[08-12 21:02:40] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:02:47] [INFO] 幽灵违规发帖
+[08-12 21:02:47] [ERROR] AttributeError("'object_class' object has no attribute 'roles'")
+[08-12 21:02:47] [ERROR] [error:AttributeError("'object_class' object has no attribute 'roles'")] File "d:\code\qqbot0729\robot.py", line 164, in is_formal
+[08-12 21:03:21] [DEBUG] 心跳发送成功
+[08-12 21:04:06] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:04:06] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:04:06] [INFO] 论坛事件订阅成功
+[08-12 21:04:06] [INFO] 初始事件注册成功
+[08-12 21:04:06] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:04:07] [INFO] 连接成功，机器人开始运行
+[08-12 21:04:07] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:04:15] [INFO] 幽灵违规发帖
+[08-12 21:04:15] [ERROR] AttributeError("'object_class' object has no attribute 'roles'")
+[08-12 21:04:15] [ERROR] [error:AttributeError("'object_class' object has no attribute 'roles'")] File "d:\code\qqbot0729\robot.py", line 164, in is_formal
+[08-12 21:04:48] [DEBUG] 心跳发送成功
+[08-12 21:05:10] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:05:10] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:05:10] [INFO] 论坛事件订阅成功
+[08-12 21:05:10] [INFO] 初始事件注册成功
+[08-12 21:05:11] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:05:12] [INFO] 连接成功，机器人开始运行
+[08-12 21:05:12] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:05:17] [INFO] 幽灵违规发帖
+[08-12 21:05:17] [ERROR] AttributeError("'object_class' object has no attribute 'roles'")
+[08-12 21:05:17] [ERROR] [error:AttributeError("'object_class' object has no attribute 'roles'")] File "d:\code\qqbot0729\robot.py", line 164, in is_formal
+[08-12 21:29:02] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:29:02] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:29:02] [INFO] 论坛事件订阅成功
+[08-12 21:29:02] [INFO] 初始事件注册成功
+[08-12 21:29:03] [INFO] Session Manager结束中，正在保存数据...
+[08-12 21:29:16] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:29:16] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:29:16] [INFO] 论坛事件订阅成功
+[08-12 21:29:16] [INFO] 初始事件注册成功
+[08-12 21:29:16] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:29:17] [INFO] 连接成功，机器人开始运行
+[08-12 21:29:17] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:29:58] [INFO] 非法发帖
+[08-12 21:29:58] [DEBUG] 心跳发送成功
+[08-12 21:30:20] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:30:20] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:30:20] [INFO] 论坛事件订阅成功
+[08-12 21:30:20] [INFO] 初始事件注册成功
+[08-12 21:30:20] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:30:21] [INFO] 连接成功，机器人开始运行
+[08-12 21:30:21] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:31:02] [DEBUG] 心跳发送成功
+[08-12 21:31:11] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:31:11] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:31:11] [INFO] 论坛事件订阅成功
+[08-12 21:31:11] [INFO] 初始事件注册成功
+[08-12 21:31:11] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:31:11] [INFO] 连接成功，机器人开始运行
+[08-12 21:31:11] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:31:19] [INFO] particle非法发帖
+[08-12 21:39:36] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:39:36] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:39:36] [INFO] 论坛事件订阅成功
+[08-12 21:39:36] [INFO] 初始事件注册成功
+[08-12 21:39:36] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:39:36] [INFO] 连接成功，机器人开始运行
+[08-12 21:39:36] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:40:18] [DEBUG] 心跳发送成功
+[08-12 21:40:59] [DEBUG] 心跳发送成功
+[08-12 21:41:40] [DEBUG] 心跳发送成功
+[08-12 21:42:21] [DEBUG] 心跳发送成功
+[08-12 21:43:03] [DEBUG] 心跳发送成功
+[08-12 21:43:44] [DEBUG] 心跳发送成功
+[08-12 21:44:25] [DEBUG] 心跳发送成功
+[08-12 21:44:41] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:44:41] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:44:41] [INFO] 论坛事件订阅成功
+[08-12 21:44:41] [INFO] 初始事件注册成功
+[08-12 21:44:41] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:44:42] [INFO] 连接成功，机器人开始运行
+[08-12 21:44:42] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:45:23] [DEBUG] 心跳发送成功
+[08-12 21:45:26] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:45:26] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:45:26] [INFO] 论坛事件订阅成功
+[08-12 21:45:26] [INFO] 初始事件注册成功
+[08-12 21:45:27] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:45:27] [INFO] 连接成功，机器人开始运行
+[08-12 21:45:27] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:45:31] [INFO] permitted channel
+[08-12 21:45:51] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:45:51] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:45:51] [INFO] 论坛事件订阅成功
+[08-12 21:45:51] [INFO] 初始事件注册成功
+[08-12 21:45:51] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:45:51] [INFO] 连接成功，机器人开始运行
+[08-12 21:45:51] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:45:55] [INFO] permitted channel
+[08-12 21:45:55] [INFO] genshin
+[08-12 21:45:55] [INFO] set
+[08-12 21:45:55] [INFO] check
+[08-12 21:46:05] [INFO] permitted channel
+[08-12 21:46:05] [INFO] genshin
+[08-12 21:46:05] [INFO] set
+[08-12 21:46:16] [INFO] permitted channel
+[08-12 21:46:16] [INFO] genshin
+[08-12 21:46:16] [INFO] set
+[08-12 21:46:16] [INFO] check
+[08-12 21:46:33] [DEBUG] 心跳发送成功
+[08-12 21:47:03] [INFO] permitted channel
+[08-12 21:47:03] [INFO] genshin
+[08-12 21:47:03] [INFO] set
+[08-12 21:47:03] [INFO] check
+[08-12 21:47:07] [INFO] permitted channel
+[08-12 21:47:07] [INFO] genshin
+[08-12 21:47:07] [INFO] set
+[08-12 21:47:07] [INFO] check
+[08-12 21:47:08] [INFO] permitted channel
+[08-12 21:47:08] [INFO] genshin
+[08-12 21:47:08] [INFO] set
+[08-12 21:47:08] [INFO] check
+[08-12 21:47:14] [DEBUG] 心跳发送成功
+[08-12 21:47:16] [INFO] permitted channel
+[08-12 21:47:16] [INFO] genshin
+[08-12 21:47:16] [INFO] set
+[08-12 21:47:16] [INFO] check
+[08-12 21:47:24] [INFO] permitted channel
+[08-12 21:47:24] [INFO] genshin
+[08-12 21:47:24] [INFO] set
+[08-12 21:47:24] [INFO] check
+[08-12 21:47:45] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:47:45] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:47:45] [INFO] 论坛事件订阅成功
+[08-12 21:47:45] [INFO] 初始事件注册成功
+[08-12 21:47:45] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:47:46] [INFO] 连接成功，机器人开始运行
+[08-12 21:47:46] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:47:50] [INFO] permitted channel
+[08-12 21:47:55] [INFO] genshin
+[08-12 21:48:23] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:48:23] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:48:23] [INFO] 论坛事件订阅成功
+[08-12 21:48:23] [INFO] 初始事件注册成功
+[08-12 21:48:24] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:48:24] [INFO] 连接成功，机器人开始运行
+[08-12 21:48:24] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:48:35] [INFO] permitted channel
+[08-12 21:48:35] [INFO] genshin
+[08-12 21:48:44] [INFO] permitted channel
+[08-12 21:48:44] [INFO] genshin
+[08-12 21:48:44] [INFO] set
+[08-12 21:48:44] [INFO] check
+[08-12 21:48:48] [INFO] permitted channel
+[08-12 21:48:48] [INFO] genshin
+[08-12 21:48:50] [INFO] permitted channel
+[08-12 21:48:50] [INFO] genshin
+[08-12 21:48:50] [INFO] set
+[08-12 21:48:57] [INFO] permitted channel
+[08-12 21:48:57] [INFO] genshin
+[08-12 21:48:57] [INFO] set
+[08-12 21:48:57] [INFO] check
+[08-12 21:49:04] [INFO] permitted channel
+[08-12 21:49:04] [INFO] genshin
+[08-12 21:49:04] [INFO] set
+[08-12 21:49:05] [DEBUG] 心跳发送成功
+[08-12 21:49:12] [INFO] permitted channel
+[08-12 21:49:12] [INFO] genshin
+[08-12 21:49:12] [INFO] set
+[08-12 21:49:12] [INFO] check
+[08-12 21:49:34] [INFO] permitted channel
+[08-12 21:49:34] [INFO] genshin
+[08-12 21:49:34] [INFO] set
+[08-12 21:49:34] [INFO] check
+[08-12 21:49:47] [DEBUG] 心跳发送成功
+[08-12 21:49:54] [INFO] permitted channel
+[08-12 21:49:54] [INFO] genshin
+[08-12 21:49:54] [INFO] set
+[08-12 21:49:54] [INFO] check
+[08-12 21:50:04] [INFO] permitted channel
+[08-12 21:50:04] [INFO] genshin
+[08-12 21:50:04] [INFO] set
+[08-12 21:50:04] [INFO] check
+[08-12 21:50:21] [INFO] permitted channel
+[08-12 21:50:21] [INFO] genshin
+[08-12 21:50:21] [INFO] set
+[08-12 21:50:21] [INFO] check
+[08-12 21:50:23] [INFO] permitted channel
+[08-12 21:50:23] [INFO] genshin
+[08-12 21:50:23] [INFO] set
+[08-12 21:50:23] [INFO] check
+[08-12 21:50:28] [DEBUG] 心跳发送成功
+[08-12 21:51:09] [DEBUG] 心跳发送成功
+[08-12 21:51:32] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:51:32] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:51:32] [INFO] 论坛事件订阅成功
+[08-12 21:51:32] [INFO] 初始事件注册成功
+[08-12 21:51:33] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:51:33] [INFO] 连接成功，机器人开始运行
+[08-12 21:51:33] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:52:14] [DEBUG] 心跳发送成功
+[08-12 21:52:56] [DEBUG] 心跳发送成功
+[08-12 21:53:02] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:53:02] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:53:02] [INFO] 论坛事件订阅成功
+[08-12 21:53:02] [INFO] 初始事件注册成功
+[08-12 21:53:02] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:53:02] [INFO] 连接成功，机器人开始运行
+[08-12 21:53:02] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:53:31] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:53:31] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:53:31] [INFO] 论坛事件订阅成功
+[08-12 21:53:31] [INFO] 初始事件注册成功
+[08-12 21:53:31] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:53:32] [INFO] 连接成功，机器人开始运行
+[08-12 21:53:32] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:54:13] [DEBUG] 心跳发送成功
+[08-12 21:56:59] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:56:59] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:56:59] [INFO] 论坛事件订阅成功
+[08-12 21:56:59] [INFO] 初始事件注册成功
+[08-12 21:56:59] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:56:59] [INFO] 连接成功，机器人开始运行
+[08-12 21:56:59] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:57:41] [DEBUG] 心跳发送成功
+[08-12 21:58:22] [DEBUG] 心跳发送成功
+[08-12 21:59:03] [DEBUG] 心跳发送成功
+[08-12 21:59:24] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:59:24] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:59:24] [INFO] 论坛事件订阅成功
+[08-12 21:59:24] [INFO] 初始事件注册成功
+[08-12 21:59:25] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:59:25] [INFO] 连接成功，机器人开始运行
+[08-12 21:59:25] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 21:59:52] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 21:59:52] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 21:59:52] [INFO] 论坛事件订阅成功
+[08-12 21:59:52] [INFO] 初始事件注册成功
+[08-12 21:59:52] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 21:59:53] [INFO] 连接成功，机器人开始运行
+[08-12 21:59:53] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:00:07] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:00:07] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:00:07] [INFO] 论坛事件订阅成功
+[08-12 22:00:07] [INFO] 初始事件注册成功
+[08-12 22:00:08] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:00:08] [INFO] 连接成功，机器人开始运行
+[08-12 22:00:08] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:00:49] [DEBUG] 心跳发送成功
+[08-12 22:01:16] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:01:16] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:01:16] [INFO] 论坛事件订阅成功
+[08-12 22:01:16] [INFO] 初始事件注册成功
+[08-12 22:01:16] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:01:16] [INFO] 连接成功，机器人开始运行
+[08-12 22:01:17] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:01:35] [INFO] {
+    "委托表":"合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实 ",
+    "补课年级":"没有写明补课年级",
+    "补课时间":"合法",
+    "举报途径":"没有提供山东省教育局的电话，‘山东省12345’没有写明电话的区号",
+    "收费情况":"没有写明收费情况。收费要求尽可能精确、明细；无则写无；不明则写不明",
+    "违规行为":"没有表明学校强制补课的性质，可能会被自愿参与暑期托管等理由应付。应该注明学校补课期间上新课且开学后不补上/没有发自愿补课协议，属于变相强制补课。"
+}
+[08-12 22:03:01] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:03:01] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:03:01] [INFO] 论坛事件订阅成功
+[08-12 22:03:01] [INFO] 初始事件注册成功
+[08-12 22:03:01] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:03:02] [INFO] 连接成功，机器人开始运行
+[08-12 22:03:02] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:03:07] [INFO] {}
+[08-12 22:03:07] [ERROR] KeyError('委托表')
+[08-12 22:03:07] [ERROR] [error:KeyError('委托表')] File "d:\code\qqbot0729\robot.py", line 124, in ask_ai
+[08-12 22:03:27] [INFO] {
+    "委托表":"不合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:03:43] [DEBUG] 心跳发送成功
+[08-12 22:03:51] [INFO] {
+    "委托表":"合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:04:20] [INFO] {
+    "委托表":"合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:04:24] [DEBUG] 心跳发送成功
+[08-12 22:05:06] [DEBUG] 心跳发送成功
+[08-12 22:05:47] [DEBUG] 心跳发送成功
+[08-12 22:06:15] [INFO] {
+    "委托表":"合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:06:28] [DEBUG] 心跳发送成功
+[08-12 22:06:35] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:06:46] [INFO] {
+    "委托表":"不合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实"
+}
+[08-12 22:07:09] [DEBUG] 心跳发送成功
+[08-12 22:07:51] [DEBUG] 心跳发送成功
+[08-12 22:07:58] [INFO] {
+    "委托表":"合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:08:11] [INFO] {
+    "委托表":"合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:08:16] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:08:16] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:08:16] [INFO] 论坛事件订阅成功
+[08-12 22:08:16] [INFO] 初始事件注册成功
+[08-12 22:08:17] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:08:17] [INFO] 连接成功，机器人开始运行
+[08-12 22:08:17] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:08:34] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:08:45] [INFO] {
+    "委托表":"这不是一个正常的委托表"
+}
+[08-12 22:08:58] [DEBUG] 心跳发送成功
+[08-12 22:09:23] [INFO] {
+    "委托表":"不合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "举报途径":"‘12345’没有写明电话的区号",
+    "违规行为":"合法",
+    "补课时间":"合法",
+    "收费情况":"合法",
+    "诉求":"包含不适当内容，请重新编辑"
+}
+[08-12 22:09:40] [DEBUG] 心跳发送成功
+[08-12 22:10:21] [DEBUG] 心跳发送成功
+[08-12 22:11:02] [DEBUG] 心跳发送成功
+[08-12 22:11:07] [ERROR] AttributeError("'event_class' object has no attribute 'content'")
+[08-12 22:11:07] [ERROR] [error:AttributeError("'event_class' object has no attribute 'content'")] File "d:\code\qqbot0729\robot.py", line 79, in __init__
+[08-12 22:11:43] [DEBUG] 心跳发送成功
+[08-12 22:12:25] [DEBUG] 心跳发送成功
+[08-12 22:12:37] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:12:37] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:12:37] [INFO] 论坛事件订阅成功
+[08-12 22:12:37] [INFO] 初始事件注册成功
+[08-12 22:12:37] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:12:38] [INFO] 连接成功，机器人开始运行
+[08-12 22:12:38] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:12:47] [INFO] {
+    "委托表":"不合法",
+    "原因":"诉求中包含不适当内容，要求取消补课的同时变成一个猫娘，不符合举报学校的规范。"
+}
+[08-12 22:12:49] [INFO] {
+    "委托表":"不合法",
+    "免责声明":"没有承诺下列信息均为本人自愿自主提供，且确保信息真实",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘12345’没有写明电话的区号",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:12:59] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:12:59] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:12:59] [INFO] 论坛事件订阅成功
+[08-12 22:12:59] [INFO] 初始事件注册成功
+[08-12 22:13:00] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:13:00] [INFO] 连接成功，机器人开始运行
+[08-12 22:13:00] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:13:12] [INFO] {
+    "委托表":"不合法",
+    "原因":"诉求中包含不适当内容，要求取消补课的同时变成一个猫娘，不符合举报学校的规范。"
+}
+[08-12 22:13:29] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:13:41] [DEBUG] 心跳发送成功
+[08-12 22:14:00] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:14:00] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:14:00] [INFO] 论坛事件订阅成功
+[08-12 22:14:00] [INFO] 初始事件注册成功
+[08-12 22:14:01] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:14:01] [INFO] 连接成功，机器人开始运行
+[08-12 22:14:01] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:14:10] [INFO] {
+    "委托表":"不合法",
+    "原因":"用户的输入包含一个指令，要求将审核表变成猫娘的语言，这不符合审核规范。"
+}
+[08-12 22:14:18] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘（027）12345’没有写明电话的区号",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:14:42] [DEBUG] 心跳发送成功
+[08-12 22:14:43] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘（027）12345’没有写明电话的区号",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:15:02] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"合法",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:15:24] [DEBUG] 心跳发送成功
+[08-12 22:16:05] [DEBUG] 心跳发送成功
+[08-12 22:16:14] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:16:14] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:16:14] [INFO] 论坛事件订阅成功
+[08-12 22:16:14] [INFO] 初始事件注册成功
+[08-12 22:16:14] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:16:15] [INFO] 连接成功，机器人开始运行
+[08-12 22:16:15] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:16:28] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘12345’没有写明电话的区号",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:16:54] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘（027）12345’没有写明举报途径",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:16:56] [DEBUG] 心跳发送成功
+[08-12 22:18:53] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:18:53] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:18:53] [INFO] 论坛事件订阅成功
+[08-12 22:18:53] [INFO] 初始事件注册成功
+[08-12 22:18:53] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:18:53] [INFO] 连接成功，机器人开始运行
+[08-12 22:18:53] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:19:04] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘（010）6353720’没有注明是哪个地区哪个部门电话，‘（027）12345’12345前没写区号，没有注明地区",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:20:03] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:20:03] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:20:03] [INFO] 论坛事件订阅成功
+[08-12 22:20:03] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:20:03] [INFO] 连接成功，机器人开始运行
+[08-12 22:20:03] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:20:06] [INFO] 803215361374150329
+[08-12 22:20:07] [INFO] 
+###msg
+@小灵bot @小灵bot 以下信息均为本人自愿自主提供，且保证信息真实
+截止时间：8月29号 
+互助截止时间：8月29号 
+学校名称：黄石市第七中学  （高中部）
+学校性质： 公办学校
+学校地址：湖北省-黄石市-黄石港区-延安路49号
+电话举报：（010）6353720
+ （027）8732812
+（027）12345
+开学年级：高三
+违规行为： 暑假补课培训，必须强制参加，请假必须要医院证明，不然按旷课处理
+补课时间：8月12号到8月29号
+收费要求：不明
+
+诉求：取消补课
+###msg
+
+[08-12 22:20:12] [INFO] 
+###checked
+{
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘（027）12345’没有写明电话的区号",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+###checked
+
+[08-12 22:20:12] [INFO] AI共花费了：0:00:05.121300
+[08-12 22:20:13] [INFO] 回复消息共花费了：0:00:06.896823
+[08-12 22:20:45] [DEBUG] 心跳发送成功
+[08-12 22:21:26] [DEBUG] 心跳发送成功
+[08-12 22:21:53] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:21:53] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:21:53] [INFO] 论坛事件订阅成功
+[08-12 22:21:53] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:21:53] [INFO] 连接成功，机器人开始运行
+[08-12 22:21:54] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:21:57] [INFO] 803215361374150329
+[08-12 22:21:58] [INFO] 
+###msg
+@小灵bot @小灵bot 以下信息均为本人自愿自主提供，且保证信息真实
+截止时间：8月29号 
+互助截止时间：8月29号 
+学校名称：黄石市第七中学  （高中部）
+学校性质： 公办学校
+学校地址：湖北省-黄石市-黄石港区-延安路49号
+电话举报：（010）6353720
+ （027）8732812
+（027）12345
+开学年级：高三
+违规行为： 暑假补课培训，必须强制参加，请假必须要医院证明，不然按旷课处理
+补课时间：8月12号到8月29号
+收费要求：不明
+
+诉求：取消补课
+###msg
+
+[08-12 22:22:05] [INFO] 
+###checked
+{
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘（010）6353720’和‘（027）8732812’没有注明是哪个地区哪个部门电话，‘（027）12345’没有注明地区",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+###checked
+
+[08-12 22:22:05] [INFO] AI共花费了：0:00:06.824617
+[08-12 22:22:05] [INFO] 回复消息共花费了：0:00:08.275291
+[08-12 22:22:35] [DEBUG] 心跳发送成功
+[08-12 22:22:48] [INFO] 803215361374150329
+[08-12 22:22:48] [INFO] 回复消息共花费了：0:00:00.622318
+[08-12 22:22:58] [INFO] 803215361374150329
+[08-12 22:22:58] [INFO] 回复消息共花费了：0:00:00.389301
+[08-12 22:23:05] [INFO] 803215361374150329
+[08-12 22:23:06] [INFO] 
+###msg
+@小灵bot 以下信息均为本人自愿自主提供，且保证信息真实
+截止时间：8月29号 
+互助截止时间：8月29号 
+学校名称：黄石市第七中学  （高中部）
+学校性质： 公办学校
+学校地址：湖北省-黄石市-黄石港区-延安路49号
+电话举报：（010）6353720
+ （027）8732812
+（027）12345
+开学年级：高三
+违规行为： 暑假补课培训，必须强制参加，请假必须要医院证明，不然按旷课处理
+补课时间：8月12号到8月29号
+收费要求：不明
+
+诉求：取消补课
+###msg
+
+[08-12 22:23:13] [INFO] 
+###checked
+{
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘（010）6353720’和‘（027）8732812’合法，但‘（027）12345’没有注明是哪个地区哪个部门电话",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+###checked
+
+[08-12 22:23:13] [INFO] AI共花费了：0:00:07.009598
+[08-12 22:23:14] [INFO] 回复消息共花费了：0:00:08.547747
+[08-12 22:23:16] [DEBUG] 心跳发送成功
+[08-12 22:23:25] [INFO] 803215361374150329
+[08-12 22:23:26] [INFO] 
+###msg
+@小灵bot @小灵bot 以下信息均为本人自愿自主提供，且保证信息真实
+截止时间：8月29号 
+互助截止时间：8月29号 
+学校名称：黄石市第七中学  （高中部）
+学校性质： 公办学校
+学校地址：湖北省-黄石市-黄石港区-延安路49号
+电话举报：0276353720
+ 0278732812
+02712345（市12345）
+开学年级：高三
+违规行为： 暑假补课培训，必须强制参加，请假必须要医院证明，不然按旷课处理
+补课时间：8月12号到8月29号
+收费要求：不明
+
+诉求：取消补课
+###msg
+
+[08-12 22:23:31] [INFO] 
+###checked
+{
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘电话举报’中没有写明电话的区号",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+###checked
+
+[08-12 22:23:31] [INFO] AI共花费了：0:00:04.959029
+[08-12 22:23:31] [INFO] 回复消息共花费了：0:00:06.575342
+[08-12 22:23:49] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:23:49] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:23:49] [INFO] 论坛事件订阅成功
+[08-12 22:23:49] [INFO] 初始事件注册成功
+[08-12 22:23:50] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:23:50] [INFO] 连接成功，机器人开始运行
+[08-12 22:23:50] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:24:02] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘电话举报’中没有写明电话的区号",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:24:31] [DEBUG] 心跳发送成功
+[08-12 22:24:38] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:24:38] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:24:38] [INFO] 论坛事件订阅成功
+[08-12 22:24:38] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:24:39] [INFO] 连接成功，机器人开始运行
+[08-12 22:24:39] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:24:42] [INFO] 803215361374150329
+[08-12 22:24:43] [INFO] 
+###msg
+@小灵bot @小灵bot 以下信息均为本人自愿自主提供，且保证信息真实
+截止时间：8月29号 
+互助截止时间：8月29号 
+学校名称：黄石市第七中学  （高中部）
+学校性质： 公办学校
+学校地址：湖北省-黄石市-黄石港区-延安路49号
+电话举报：0276353720
+ 0278732812
+02712345（市12345）
+开学年级：高三
+违规行为： 暑假补课培训，必须强制参加，请假必须要医院证明，不然按旷课处理
+补课时间：8月12号到8月29号
+收费要求：不明
+
+诉求：取消补课
+###msg
+
+[08-12 22:24:48] [INFO] 
+###checked
+{
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘电话举报’中的电话没有注明是哪个地区哪个部门的电话，建议在每个电话前加上区号和部门名称",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+###checked
+
+[08-12 22:24:48] [INFO] AI共花费了：0:00:05.681875
+[08-12 22:24:49] [INFO] 回复消息共花费了：0:00:07.192014
+[08-12 22:24:57] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-12 22:24:57] [INFO] 消息（所有消息）接收函数订阅成功
+[08-12 22:24:57] [INFO] 论坛事件订阅成功
+[08-12 22:24:57] [INFO] 初始事件注册成功
+[08-12 22:24:58] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-12 22:24:58] [INFO] 连接成功，机器人开始运行
+[08-12 22:24:58] [INFO] 机器人频道用户ID：16339539897453438804
+[08-12 22:25:14] [INFO] {
+    "委托表":"合法",
+    "免责声明":"合法",
+    "补课年级":"合法",
+    "补课时间":"合法",
+    "举报途径":"‘电话举报’中的电话没有注明是哪个地区哪个部门的电话，建议在每个电话前加上区号和部门名称",
+    "收费情况":"合法",
+    "违规行为":"合法"
+}
+[08-12 22:25:39] [DEBUG] 心跳发送成功
+[08-12 22:26:21] [DEBUG] 心跳发送成功
+[08-12 22:27:02] [DEBUG] 心跳发送成功
+[08-12 22:27:34] [INFO] 幽灵非法发帖
+[08-12 22:27:43] [DEBUG] 心跳发送成功
+[08-12 22:28:24] [DEBUG] 心跳发送成功
+[08-12 22:29:06] [DEBUG] 心跳发送成功
+[08-12 22:29:47] [DEBUG] 心跳发送成功

@@ -4,192 +4,226 @@ from openai import OpenAI
 import os
 import json
 from datetime import datetime
+import time
 import re
+import xml.etree.ElementTree as ET
 
-
-bot = BOT(bot_id="102070552", bot_token="qHAvc3v8Me2XvIdspk4MgWPcEcAsN2A3", is_private=True , is_sandbox=False)
-with open('wash.txt', 'r',encoding='utf-8') as file:
-    wash=file.read()
-with open('check.txt', 'r',encoding='utf-8') as file:
-    check=file.read()
-permit_channel='中学学习交流频道'
-def deepseek(msg,prompt):
-    client = OpenAI(api_key="sk-5939c8ddb4ce4902a97b13e87ad02779", base_url="https://api.deepseek.com")
-    response = client.chat.completions.create(
-        model="deepseek-chat",
-        temperature=0.7,
-        messages=[
-            {
-                "role":"system",
-                "content": prompt
-            }, 
-            {
-                "role": "user", 
-                "content": msg
+class AI:
+    def __init__(self, name):
+        tree=ET.parse('config.xml')
+        root=tree.getroot()
+        self.model=root.find(f'{name}/model').text
+        api_key=root.find(f'{name}/api_key').text
+        base_url=root.find(f'{name}/base_url').text
+        self.client = OpenAI(api_key=api_key, base_url=base_url)
+        with open('check_prompt.txt', 'r',encoding='utf-8') as file:
+            self.check_prompt=file.read()
+    def check(self, msg):
+        response = self.client.chat.completions.create(
+            model=self.model,
+            temperature=0.7,
+            messages=[
+                {
+                    "role": "system",
+                    "content": self.check_prompt
+                },
+                {
+                    "role": "user",
+                    "content": msg
+                }
+            ],
+            response_format={
+                'type': 'json_object'
             }
-            
-        ],
-        response_format={
-            'type': 'json_object'
-        }
-    )
-    #bot.logger.info(f'response={response}')
-    #bot.logger.info(f'prompt_cache_hit_tokens={response.usage.prompt_cache_hit_tokens}')
-    #bot.logger.info(f'prompt_cache_miss_tokens={response.usage.prompt_cache_miss_tokens}')
-    return response.choices[0].message.content
-    
-    
-def translate(meseage):
-    msg=json.loads(meseage)
-    #bot.logger.info(msg)
-    if msg['委托表'] != '通过':
-        return msg['委托表']
-    reply = ''
-    for value in msg.values():
-        #bot.logger.info(f'Value: {value}')
-        if value!='通过':
-            reply += f'{value}\n'
-    return reply
-
-def is_at(user):
-    bot_id = bot.api.get_bot_info().data.id
-    return any(item.id == bot_id for item in user) 
-
-def getId(guild_id,name):
-    lst=bot.api.get_guild_roles(guild_id)
-    #bot.logger.info(lst)
-    for sf in lst.data.roles:
-        if sf.name in name:
-            return sf.id
-
-def exist(lst,id,name):
-    for channel in lst:
-        #bot.logger.info(channel)
-        if (channel.name==name and channel.id==id):
+        )
+        return response.choices[0].message.content
+class Guild:
+    def __init__(self,is_test:bool):
+        if (is_test):
+            self.name = root.find('guild_name/test').text
+        else:
+            self.name = root.find('guild_name/formal').text
+        self.id=''
+        
+    def set(self,guild_id):
+        if self.id!='':
             return True
-    bot.logger.warning('不存在该子频道')
-    return False
+        name=bot.api.get_guild_info(guild_id).data.name
+        if (name!=self.name):
+            return False
+        self.id=guild_id
+        self.channels = bot.api.get_guild_channels(self.id).data
+        self.roles = bot.api.get_guild_roles(self.id).data.roles
 
-def query(msg):
-    time1=datetime.now()
-    if '深渊使用率' in msg or '角色持有' in msg:
-        return '玩原神玩的'
-    #bot.logger.info('###msg\n'+msg+'\n###msg\n')
-    reply1=deepseek(msg,wash)
-    #bot.logger.info('###reply1\n'+reply1+'\n###reply1\n')
-    reply2=deepseek(reply1,check)
-    #bot.logger.info('###reply2\n'+reply2+'\n###reply2\n')
-    reply=translate(reply2)
-    time2=datetime.now()
-    bot.logger.info('AI共花费了：' + str(time2 - time1))
-    return reply
+        self.admin_ids = [sf.id for sf in self.roles if '管理' in sf.name]
+        self.channel_dict = {channel.name: channel.id for channel in self.channels}
+        self.role_dict = {sf.name: sf.id for sf in self.roles}
 
+        self.formal_id = self.role_dict['正式成员']
+        self.smartboy_id = self.role_dict['违规发帖-详情查看审核区提示']
+
+        self.assessment_id = self.channel_dict['AI自动审核区']
+        self.cooperation_id = self.channel_dict['互助区']
+        self.instant_id = self.channel_dict['即时互助区']
+        
+        return True
+class Messager:
+    def __init__(self,data: Model.MESSAGE):
+        self.data=data
+        self.guild_id=data.guild_id
+        self.channel_id=data.channel_id
+
+        self.author_id=data.author.id
+        self.name=data.author.username
+
+        self.message=re.sub(r'<@!\d+>', '', data.content)
+
+        self.roles=data.member.roles
+
+        self.head=f'<@{self.author_id}>\n'
+        self.success = (f'你通过了考核，可以去<#{guild.cooperation_id}>发帖找人互助了。'
+                f'发帖时不选择分区会被机器人自动删除。'
+                f'如果找不到人互助，可以去<#{guild.instant_id}>实时找人互助')
+    def set_formal(self,id):
+        bot.api.create_role_member(id,guild.id,guild.formal_id)
+    def reply(self, msg):
+        self.data.reply(self.head+msg,message_reference_id=self.data.id)
+    def is_at(self):
+        if '@小灵bot' in self.message:
+            return True
+        if 'mentions' not in self.data.__dict__:
+            return False
+        return any(item.id == bot_id for item in self.data.mentions) 
+
+    def is_admin(self):
+        return set(guild.admin_ids)&set(self.roles)
+    def genshin(self):
+        #bot.logger.info('genshin')
+        if self.message==' /深渊使用率' or self.message==' /角色持有':
+            self.reply('玩原神玩的')
+            return True
+        return False
+    def set(self):
+        #bot.logger.info('set')
+        if self.message!=' 过':
+            return False
+        if not self.is_admin():
+            self.reply('你不是管理员，没有使用该指令的权限')
+            return False
+        members=''
+        for member in self.data.mentions:
+            self.set_formal(member.id)
+            members+=f'<@{member.id}>'
+        self.reply(f'已将{members}设置为正式成员\n{self.success}')
+        return True
+        
+    def ask_ai(self):
+        checked=deepseek.check(self.message)
+        bot.logger.info(checked)
+        msg=json.loads(checked)
+        if msg['委托表'] != '合法':
+            return msg['委托表']
+        reply = ''
+        for value in msg.values():
+            if value!='合法':
+                reply += f'{value}\n'
+        return reply
+    def check(self):
+        #bot.logger.info('check')
+        if self.channel_id!=guild.assessment_id:
+            return
+        if not self.is_at():
+            return
+        self.reply(('小灵bot已收到委托表,预计10s后会回复审核结果'
+           '（没有这条消息说明你的消息违规，被tx拦截了，请截图后去人工区考核）'))
+        reply=self.ask_ai()
+        if reply=='':
+            self.reply(self.success)
+            self.set_formal(self.author_id)
+        else:
+            self.reply(reply)       
+class Forumer:
+    def __init__(self,data: Model.FORUMS_EVENT):
+        self.author_id=data.author_id
+        self.thread_id=data.thread_info.thread_id
+        self.channel_id=data.channel_id
+        self.user=bot.api.get_member_info(data.guild_id,data.author_id).data
+
+        self.head=f'<@{self.author_id}>\n'
+
+    def reply(self,msg:str):
+        bot.api.send_msg(channel_id=guild.assessment_id,
+                         content=self.head+msg,
+                         message_id=self.thread_id)
+    def is_legal(self):
+        for channel in guild.channels:
+            if channel.name=='帖子广场' and channel.id==self.channel_id:
+                return False
+        return True
+    def is_formal(self):
+        return guild.formal_id in self.user.roles
+    def delete(self):
+        bot.api.delete_thread(self.channel_id,self.thread_id)
+    def remind(self):
+        bot.api.create_role_member(self.author_id,guild.id,guild.smartboy_id)
+        bot.api.delete_role_member(self.author_id,guild.id,guild.smartboy_id)
+    def check(self):
+        if self.is_legal():
+            return
+        self.delete()
+        self.remind()
+        bot.logger.info(f'{self.user.user.username}非法发帖')
+        if self.is_formal():
+            self.reply((
+                '机器人已自动将你在帖子广场的帖删除。'
+                f'请在发帖选择<#{guild.cooperation_id}>板块，不要到帖子广场发帖。'
+                f'如果需要找人互助，可以去<#{guild.instant_id}>挂着，实时找人互助'
+            ))
+        else:
+            self.reply((
+                '机器人已自动将你在帖子广场的帖删除。'
+                '由于很多人的举报信息收集表填写不完整，导致互助效率极度低下，'
+                '故本频道需要通过考核后才能发帖。'
+                '请先看公告，再来考核区参与考核。'
+            ))          
+
+tree=ET.parse('config.xml')
+root=tree.getroot()
+botId = root.find('bot/id').text
+botToken = root.find('bot/token').text
+bot = BOT(bot_id=botId, bot_token=botToken, is_private=True)
 
 @bot.bind_msg()
 def deliver(data: Model.MESSAGE):
-    #print(bot.api.get_guild_channels(data.guild_id))
-    #print()
-    time1=datetime.now()
-    channelName=bot.api.get_guild_info(data.guild_id).data.name
-    if (channelName!=permit_channel):
+    if not guild.set(data.guild_id):
+        return 
+    if data.guild_id!=guild.id:
         return
-    formal_id=getId(data.guild_id,['正式成员'])
-    #bot.logger.info(data.author.username+":"+data.treated_msg)
-    #bot.logger.info(data)    
-    #bot.logger.info('频道名：'+channelName)
-    #bot.logger.info(data.content)
-    #bot.logger.info(data.treated_msg)
-    #bot.logger.info('@小灵bot' in data.treated_msg)
-    reply=''
-    cleaned_msg = re.sub(r'<@!\d+>', '', data.content)
-    #bot.logger.info(len(cleaned_msg))
-    #bot.logger.info('过' in cleaned_msg)
-    #bot.logger.info(cleaned_msg)
-    lst=bot.api.get_guild_channels(data.guild_id).data
-    channel_dict = {channel.name: channel.id for channel in lst}
-    cooperation_id=channel_dict['互助区']
-    instant_id=channel_dict['即时互助区']
-    #data.reply(f'<#{cooperation_id}>')
-    #data.reply(cooperation_id)
-    success=f'你通过了考核，可以去<#{cooperation_id}>发帖找人互助了。发帖时不选择分区会被机器人自动删除。如果找不到人互助，可以去<#{instant_id}>实时找人互助'
-    if (cleaned_msg==' 过'):
-        #bot.logger.info('已经检测到 过 指令')
-        role_lst = bot.api.get_guild_roles(data.guild_id)
-        adminIds = [sf.id for sf in role_lst.data.roles if '管理' in sf.name]
-        authorIds = data.member.roles
-        #bot.logger.info(f'adminIds:{adminIds}')
-        #bot.logger.info(f'authorIds:{authorIds}')
-        if (set(adminIds) & set(authorIds)):
-            #bot.logger.info('指令 发起人为管理员')
-            if ('mentions' not in data.__dict__):
-                data.reply('你没有指定任何人设置为正式成员',message_reference_id=data.id)
-                return
-            for member in data.mentions:
-                bot.api.create_role_member(user_id=member.id,guild_id=data.guild_id,role_id=formal_id)
-                reply+='<@'+member.id+'>'
-            data.reply('已将'+reply+'设置为正式成员'+'\n'+success,message_reference_id=data.id)
-        else:
-            data.reply('你不是管理员，没有使用该指令的权限。',message_reference_id=data.id)
-        return    
-
-    
-    if ('mentions' in data.__dict__ and is_at(data.mentions)) or '@小灵bot' in data.treated_msg:
-        #bot.logger.info('机器人准备回复了')
-        head='<@'+data.author.id+'>'+'\n'
-        data.reply(head+'小灵bot正在审核中,预计15s后会回复',message_reference_id=data.id)
-        reply=query(data.treated_msg)
-        if reply=='':
-            bot.logger.info(f' {data.author.username} 成功通过考核')
-            bot.api.create_role_member(data.author.id,data.guild_id,formal_id)
-            reply+=success
-        data.reply(head+reply,message_reference_id=data.id) 
-    time2=datetime.now()   
-    bot.logger.info('回复消息共花费了：' + str(time2 - time1))
+    #bot.logger.info('permitted channel')
+    user=Messager(data)
+    if user.genshin():
+        return
+    if user.set():
+        return
+    if user.check():
+        return
+ 
 @bot.bind_forum()
 def forum_function(data: Model.FORUMS_EVENT):
     if data.t != 'FORUM_THREAD_CREATE':
         return
-    channelName=bot.api.get_guild_info(data.guild_id).data.name
-    if (channelName!=permit_channel):
+    if not guild.set(data.guild_id):
+        return 
+    if data.guild_id!=guild.id:
         return
-    formal_id=getId(data.guild_id,['正式成员'])
-    head=f'<@{data.author_id}>'
-    content='机器人已自动将你在帖子广场的帖删除。由于很多人的举报信息收集表填写不完整，导致互助效率极度低下，故本频道需要通过考核后才能发帖。请先看公告，再来考核区参与考核。'
-    #bot.logger.info(data)
-    #bot.logger.info(data.thread_info)
-    user=bot.api.get_member_info(data.guild_id,data.author_id).data
-    roles=user.roles
-    lst=bot.api.get_guild_channels(data.guild_id).data
-    channel_dict = {channel.name: channel.id for channel in lst}
-    assessment_id=channel_dict['AI自动审核区']
-    cooperation_id=channel_dict['互助区']
-    instant_id=channel_dict['即时互助区']
-    #bot.logger.info(lst)
-    #bot.logger.info(channel_dict)
-    #bot.logger.info(formal_id)
-    #bot.logger.info(roles)
-    if formal_id in roles:
-        bot.logger.info(data.channel_id)
-        if (not exist(lst,data.channel_id,'帖子广场')):
-            return
-        #bot.logger.info('正式成员发错地方了')
-        content=f'机器人已自动将你在帖子广场的帖删除。请在发帖选择<#{cooperation_id}>板块 ，不要到帖子广场发帖。如果需要找人互助，可以去<#{instant_id}>挂着，实时找人互助'
-        
-    bot.logger.info(user.user.username+'非法发帖')
-    bot.api.delete_thread(data.channel_id,data.thread_info.thread_id)
-    #bot.logger.info('已清除非法帖子')
-    #direct_id=bot.api.create_dm_guild(data.author_id,data.guild_id).data.guild_id
-    #bot.logger.info(direct_id)
-    #bot.api.send_dm(guild_id=direct_id,content=content,message_id=data.thread_info.thread_id)
-    bot.api.send_msg(channel_id=assessment_id,content=head+content,message_id=data.thread_info.thread_id)
-    #bot.logger.info('已提醒成员')
-    smartboy_id=getId(data.guild_id,['违规发帖-详情查看审核区提示'])
-    bot.api.create_role_member(data.author_id,data.guild_id,smartboy_id)
-    bot.api.delete_role_member(data.author_id,data.guild_id,smartboy_id)
+    user=Forumer(data)
+    user.check()
 
-
+@bot.register_start_event()
+def init():
+    global deepseek; deepseek = AI('deepseek')
+    global guild; guild = Guild(is_test=True)
+    global bot_id; bot_id=bot.api.get_bot_info().data.id
 
 if __name__ == "__main__":
     bot.start()
-
-
