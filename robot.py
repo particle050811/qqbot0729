@@ -75,9 +75,11 @@ class Messager:
 
         self.author_id=data.author.id
         self.name=data.author.username
-
-        self.message=re.sub(r'<@!\d+>', '', data.content)
-
+        #bot.logger.info(data)
+        if 'content' in data.__dict__:
+            self.message=re.sub(r'<@!\d+>', '', data.content)
+        else:
+            self.message=''
         self.roles=data.member.roles
 
         self.head=f'<@{self.author_id}>\n'
@@ -119,7 +121,7 @@ class Messager:
         
     def ask_ai(self):
         checked=deepseek.check(self.message)
-        bot.logger.info(checked)
+        #bot.logger.info(checked)
         msg=json.loads(checked)
         if msg['委托表'] != '合法':
             return msg['委托表']
@@ -141,6 +143,7 @@ class Messager:
         if reply=='':
             self.reply(self.success)
             self.set_formal(self.author_id)
+            bot.logger.info(f' {self.name} 通过考核')
         else:
             self.reply(reply)       
 class Forumer:
@@ -223,7 +226,7 @@ def forum_function(data: Model.FORUMS_EVENT):
 @bot.register_start_event()
 def init():
     global deepseek; deepseek = AI('deepseek')
-    global guild; guild = Guild(is_test=True)
+    global guild; guild = Guild(is_test=False)
     global bot_id; bot_id=bot.api.get_bot_info().data.id
 
 if __name__ == "__main__":

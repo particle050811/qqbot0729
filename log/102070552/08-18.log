@@ -1,0 +1,19 @@
+[08-18 00:00:12] [DEBUG] 心跳发送成功
+[08-18 00:00:22] [ERROR] AttributeError("'event_class' object has no attribute 'content'")
+[08-18 00:00:22] [ERROR] [error:AttributeError("'event_class' object has no attribute 'content'")] File "d:\code\qqbot0729\robot.py", line 79, in __init__
+[08-18 00:00:34] [INFO]  何不食珹汁 通过考核
+[08-18 00:00:53] [DEBUG] 心跳发送成功
+[08-18 00:01:19] [ERROR] AttributeError("'event_class' object has no attribute 'content'")
+[08-18 00:01:19] [ERROR] [error:AttributeError("'event_class' object has no attribute 'content'")] File "d:\code\qqbot0729\robot.py", line 79, in __init__
+[08-18 00:01:34] [DEBUG] 心跳发送成功
+[08-18 00:02:16] [DEBUG] 心跳发送成功
+[08-18 00:02:57] [DEBUG] 心跳发送成功
+[08-18 00:03:08] [INFO] Session Manager 读取了 D:\code\qqbot0729\session_data 的数据
+[08-18 00:03:08] [INFO] 消息（所有消息）接收函数订阅成功
+[08-18 00:03:08] [INFO] 论坛事件订阅成功
+[08-18 00:03:08] [INFO] 初始事件注册成功
+[08-18 00:03:08] [DEBUG] [机器人ws地址] wss://api.sgroup.qq.com/websocket
+[08-18 00:03:09] [INFO] 连接成功，机器人开始运行
+[08-18 00:03:09] [INFO] 机器人频道用户ID：16339539897453438804
+[08-18 00:03:50] [DEBUG] 心跳发送成功
+[08-18 00:03:51] [INFO]  幽灵 通过考核
