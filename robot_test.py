@@ -3,7 +3,7 @@ from qg_botsdk import BOT, Model
 from openai import OpenAI
 import os
 import json
-from datetime import datetime
+from datetime import datetime,timedelta
 import time
 import re
 import xml.etree.ElementTree as ET
@@ -45,7 +45,7 @@ class Guild:
             self.name = root.find('guild_name/formal').text
         self.id=''
         
-    def set(self,guild_id):
+    def set(self,guild_id,msg_id):
         if self.id!='':
             return True
         name=bot.api.get_guild_info(guild_id).data.name
@@ -65,7 +65,64 @@ class Guild:
         self.assessment_id = self.channel_dict['AI自动审核区']
         self.cooperation_id = self.channel_dict['互助区']
         self.instant_id = self.channel_dict['即时互助区']
+        self.bot_id = self.channel_dict['机器人调教']
         
+        bot.logger.info('开始询问')
+        time1=datetime.now()
+        Members=bot.api.get_guild_members(self.id).data
+        time2=datetime.now()
+        bot.logger.info(f'结束询问，耗时{time2-time1}')
+        members = []
+
+        for member in Members:
+            id = member.user.id
+            nick = member.nick
+            roles = member.roles
+            joined_at = member.joined_at
+            
+            # 检查角色数量是否为1，并且角色ID是否在11到12之间
+            if len(roles) != 1 or not (11 <= int(roles[0]) <= 12):
+                continue
+            
+            # 将 joined_at 转换为 datetime 对象
+            joined_at_datetime = datetime.fromisoformat(joined_at.replace('Z', '+00:00'))
+            
+            # 获取当前时间
+            now = datetime.now(joined_at_datetime.tzinfo)
+            
+            # 计算14天前的日期
+            threshold_date = now - timedelta(days=7)
+            
+            # 判断成员加入时间是否大于7天
+            if joined_at_datetime >= threshold_date:
+                continue
+            
+            members.append({
+                'id' : id,
+                'nick': nick,
+                'roles': roles,
+                'joined_at': joined_at
+            })
+        # 将提取的数据以 JSON 格式保存到 members.txt 文件中
+        with open('members.txt', 'w', encoding='utf-8') as file:
+            json.dump(members, file, ensure_ascii=False, indent=4)
+
+        bot.logger.info("数据已成功保存到 members.txt 文件中。")
+        bot.logger.info(f"满足条件的成员总数为{len(members)}")   
+
+        for member in members:
+            id = member['id']
+            nick = member['nick']
+            content = f'已清除{nick}'
+            bot.api.delete_member(guild_id=self.id,user_id=id)
+            bot.logger.info(content)
+            #bot.api.send_msg(channel_id=guild.bot_id,
+            #             content=content,
+            #             message_id=msg_id)
+            time.sleep(0.05)
+            
+
+
         return True
 class Messager:
     def __init__(self,data: Model.MESSAGE):
@@ -127,7 +184,7 @@ class Messager:
         for value in msg.values():
             if value!='合法':
                 reply += f'{value}\n'
-        return reply[:-1]
+        return reply
     def check(self):
         #bot.logger.info('check')
         if self.channel_id!=guild.assessment_id:
@@ -135,8 +192,7 @@ class Messager:
         if not self.is_at():
             return
         self.reply(('小灵bot已收到委托表,预计10s后会回复审核结果'
-           '（没有这条消息说明你的消息违规，被tx拦截了，请截图后去人工区考核）'
-           f'以下为考核表原文：\n\n{self.message}'))
+           '（没有这条消息说明你的消息违规，被tx拦截了，请截图后去人工区考核）'))
         reply=self.ask_ai()
         if reply=='':
             self.reply(self.success)
@@ -196,35 +252,24 @@ bot = BOT(bot_id=botId, bot_token=botToken, is_private=True)
 
 @bot.bind_msg()
 def deliver(data: Model.MESSAGE):
-    if not guild.set(data.guild_id):
+    if not guild.set(data.guild_id,data.id):
         return 
     if data.guild_id!=guild.id:
-        return
-    #bot.logger.info('permitted channel')
-    user=Messager(data)
-    if user.genshin():
-        return
-    if user.set():
-        return
-    if user.check():
         return
  
 @bot.bind_forum()
 def forum_function(data: Model.FORUMS_EVENT):
     if data.t != 'FORUM_THREAD_CREATE':
         return
-    if not guild.set(data.guild_id):
+    if not guild.set(data.guild_id,data.thread_info.thread_id):
         return 
-    if data.guild_id!=guild.id:
-        return
-    user=Forumer(data)
-    user.check()
 
 @bot.register_start_event()
 def init():
     global deepseek; deepseek = AI('deepseek')
-    global guild; guild = Guild(is_test=True)
+    global guild; guild = Guild(is_test=False)
     global bot_id; bot_id=bot.api.get_bot_info().data.id
+
 
 if __name__ == "__main__":
     bot.start()
